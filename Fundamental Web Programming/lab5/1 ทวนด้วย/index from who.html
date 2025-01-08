@@ -1,0 +1,117 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5-1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="text"></div>
+    <div class="container">
+        <table class="table table-striped">
+            <thead id="thead">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Position</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td></td>
+                </tr> -->
+            <tr>
+                    <td>1</td>
+                    <td>Nancy Davolio</td>
+                    <td>F</td>
+                    <td>Sales Representative</td>
+                    <td>507-20th Ave. E. Apt. 2A</td>
+                </tr><tr>
+                    <td>2</td>
+                    <td>Andrew Fuller</td>
+                    <td>M</td>
+                    <td>Vice President</td>
+                    <td>908 W. Capital Way</td>
+                </tr><tr>
+                    <td>3</td>
+                    <td>Janet Leverling</td>
+                    <td>F</td>
+                    <td>Sales Representative</td>
+                    <td>722 Moss Bay Blvd.</td>
+                </tr><tr>
+                    <td>4</td>
+                    <td> Margaret Peacock</td>
+                    <td>F</td>
+                    <td>Sales Representative</td>
+                    <td>4110 0 ld Redmond Rd.</td>
+                </tr><tr>
+                    <td>5</td>
+                    <td>Steven Buchanan</td>
+                    <td>M</td>
+                    <td>Sales Manager</td>
+                    <td>14 Garrett Hill</td>
+                </tr><tr>
+                    <td>6</td>
+                    <td>Michael  Suyama </td>
+                    <td>M</td>
+                    <td>Sales Representative</td>
+                    <td>Coventry House Miner Rd.</td>
+                </tr><tr>
+                    <td>7</td>
+                    <td> Robert King</td>
+                    <td>M</td>
+                    <td>Sales Representative</td>
+                    <td>Edgeham Hollow Winchester Way</td>
+                </tr><tr>
+                    <td>8</td>
+                    <td>Laura Callahan</td>
+                    <td>F</td>
+                    <td>Inside Sales Coordinator</td>
+                    <td>4726-11th Ave. N.E.</td>
+                </tr><tr>
+                    <td>9</td>
+                    <td> Anne Dodsworth</td>
+                    <td>F</td>
+                    <td>Sales Representative</td>
+                    <td>7 Houndstooth Rd.</td>
+                </tr></tbody>
+        </table>
+    </div>
+
+
+    <script>
+        function info(data) {
+            const tbody = document.getElementById('tbody');
+            
+            for (let emp of data) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${emp.id}</td>
+                    <td>${emp.FirstName} ${emp.LastName}</td>
+                    <td>${emp.Gender == "Male" ? 'M' : 'F'}</td>
+                    <td>${emp.Position}</td>
+                    <td>${emp.Address}</td>
+                `;
+                tbody.appendChild(tr);
+            }
+        }
+
+        fetch('employees.json')
+            .then(response => response.json())
+            .then(data => info(data))
+            .catch(error => console.log('error', error))
+    </script>
+
+</body></html>

@@ -1,0 +1,67 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5-1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="text"></div>
+    <div class="container">
+        <table class="table table-striped">
+            <thead id="thead">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Position</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- Dynamic data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function populateTable(data) {
+            const tbody = document.getElementById('tbody');
+            tbody.innerHTML = ''; // Clear any existing rows
+
+            data.forEach(emp => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${emp.id}</td>
+                    <td>${emp.FirstName} ${emp.LastName}</td>
+                    <td>${emp.Gender === "Male" ? 'M' : 'F'}</td>
+                    <td>${emp.Position}</td>
+                    <td>${emp.Address}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Fetch data from the provided URL
+        fetch('http://10.0.15.21/lab/lab5/json/employees.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => populateTable(data))
+            .catch(error => console.error('Error fetching employees:', error));
+    </script>
+
+</body></html>

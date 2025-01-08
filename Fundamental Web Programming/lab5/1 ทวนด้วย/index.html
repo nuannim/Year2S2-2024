@@ -1,0 +1,95 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5-1</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+            font-size: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            text-align: left;
+            padding: 10px;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 1000px;
+            height: auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th {
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+        tr {
+            background-color: #f7f7f7;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        tr td {
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead> 
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Position</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+    <script>
+        function showTable(data) {
+            const tbody = document.getElementById('tbody');
+            tbody.innerHTML = '';
+
+            data.forEach(emp => {
+                const tr = document.createElement('tr');
+                const id = document.createElement('td');
+                const name = document.createElement('td');
+                const gender = document.createElement('td');
+                const position = document.createElement('td');
+                const address = document.createElement('td');
+
+                id.textContent = emp.id;
+                name.textContent = `${emp.FirstName} ${emp.LastName}`;
+                gender.textContent = emp.Gender === "Male" ? 'M' : 'F';
+                position.textContent = emp.Position;
+                address.textContent = emp.Address;
+
+                tr.appendChild(id);
+                tr.appendChild(name);
+                tr.appendChild(gender);
+                tr.appendChild(position);
+                tr.appendChild(address);
+                tbody.appendChild(tr);
+            });
+        }
+
+        fetch('http://10.0.15.21/lab/lab5/json/employees.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => showTable(data))
+            .catch(error => console.error('Error fetching employees:', error));
+    </script>
+</body></html>

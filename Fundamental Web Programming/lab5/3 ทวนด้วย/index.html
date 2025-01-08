@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5-3</title>
+    <style>
+        body {
+            font-family: "Ubuntu", serif;
+            font-size: 24px;
+        }
+
+        .question {
+            padding-left: 100px;
+            margin-bottom: 20px;
+        }
+
+        .answer {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container"></div>
+
+    <script>
+        function generateQuiz(data) {
+            const quizContainer = document.getElementById('quiz-container');
+            let quizHTML = '';
+            
+            data.forEach((questionData, index) => {
+                quizHTML += `<div class="question">
+                    <p>${index + 1}. ${questionData.question}</p>
+                    <label class="answer">
+                        <input type="radio" name="question${index}" value="a"> A. ${questionData.answers.a}
+                    </label><br>
+                    <label class="answer">
+                        <input type="radio" name="question${index}" value="b"> B. ${questionData.answers.b}
+                    </label><br>
+                    <label class="answer">
+                        <input type="radio" name="question${index}" value="c"> C. ${questionData.answers.c}
+                    </label><br>
+                </div>`;
+            });
+            
+            quizContainer.innerHTML = quizHTML;
+        }
+
+        fetch('http://10.0.15.21/lab/lab5/json/questionAnswerData.json')
+            .then(response => response.json())
+            .then(data => generateQuiz(data))
+            .catch(error => console.error('Error loading quiz data:', error));
+    </script>
+</body>
+</html>
