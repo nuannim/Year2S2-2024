@@ -192,3 +192,16 @@ println(IsOdd(7))  // true เพราะ 7 เป็นเลขคี่
     val number = 5
     println(s"The successor of $number is ${successor(number)}")
   }
+
+
+
+def addition(m: Int, n: Int): Int = {
+  if (n == 0) m
+  else addition(successor(m), predecessor(n))
+}
+
+def main(args: Array[String]): Unit = {
+  val num1 = 5
+  val num2 = 3
+  println(s"The addition of $num1 and $num2 is ${addition(num1, num2)}")
+}
