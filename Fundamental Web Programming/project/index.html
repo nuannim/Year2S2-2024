@@ -6,64 +6,53 @@
     <title>hi there from Mars! Vegetarian</title>
     <link rel="stylesheet" href="styles.css">
 
-
     <style>
         div {
             /* border-style: solid; */
         }
 
-        .home-div {
-            /* background-color: #ffffffad; */
-            /* height: 40%; */
+        .recommended-menu {
+            /* border-style: solid; */
+            /* border-color: yellowgreen; */
 
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            background-color: rgba(255, 255, 255, 0.746);
 
-        }
-
-        .reccommended-menu-div {
-            /* margin: 10px; */
-            /* border-color: blue; */
-
-            /* background-color: white; */
-            background-color: #ffffffb2;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            height: auto;
-        }
-
-        .flex-row-div {
-            display: flex;
-            justify-content: flex-start;
-
-            gap: 10px;
-
-            /* width: 100%; */
+            width: 37vh;
+            height: 350px;
         }
 
         main {
-            /* display: grid;
-            grid-template-columns: repeat(1, 1fr); */
+            /* border-style: solid;
+            border-color: blue; */
+
             display: flex;
             flex-direction: column;
-
-            /* border-style: solid;
-            border-color: aqua; */
+            justify-content: center;
+            /* align-items: center; */
+            margin-right: 10%;
+            margin-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
         }
 
-        img {
-            margin-top: 20px;
-            border-radius: 10px;
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #86c2b43b;
         }
+
+        .flex-everything-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
     </style>
 </head>
 
-<body style="background-color: #86c2b43b;">
+<body style="">
     <nav class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -71,65 +60,40 @@
             <li><a href="about.html">About</a></li>
             <li><button onclick="window.location.href='https://www.instagram.com/realnuannim';">Who is Nuannim?</button>
             </li>
-            <!-- <li style="background-color: #c48fc2;"><a href="">Who is Nuannim?</a></li> -->
         </ul>
     </nav>
 
-    <!-- <button>Booking here</button> -->
+    <main style="gap: 50px">
 
-
-    <main>
-        <!-- <h1>Coming Soon...</h1> -->
-
-        <div class="home-div" style="height: 80vh; background-position: center; background-size: cover; background-image: url('https://scontent.fbkk3-3.fna.fbcdn.net/v/t51.75761-15/468580201_18072532000720985_9114254976214864458_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH18RfSDNSH63QeIaGdkFctxsDxj4ZYGoTGwPGPhlgahK-bnoUiuJQShcWYhjfJ20lzCT_zJNgSVzqLry47RMq_&_nc_ohc=RvtOA1FhgYgQ7kNvgEV3P_A&_nc_zt=23&_nc_ht=scontent.fbkk3-3.fna&_nc_gid=AKDGqbtNLK1dkRrior25OXX&oh=00_AYAGocctCqjA_AE4wnkdEfRK8kC7dLs1PqGQ4hBHjCRK8A&oe=6786F373');" >
-            <h1 style="width: 40%; color: aliceblue; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);">Marmink's Veggie Vibes: Bite into her world of tasty, mindful eats!</h1>
+        <div class="flex-everything-center" 
+            style="height: 550px; align-items: flex-start; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.714), rgba(255, 255, 255, 0)), 
+                          url('https://images-prod.healthline.com/hlcmsresource/images/AN_images/vegetarian-diet-plan-1296x728-feature.jpg');
+                background-size: 140%; background-position: center left;
+            ">
+            <h1 style="color: aliceblue; margin-left: 90px;">แบ่งปัน<br>มังสวิรัติกินอะไร</h1>
         </div>
 
-        <div class="home-div" style="margin-top: 10vh;">
-            <h1>Recommended Menu (เดี๋ยวเปลี่ยนเป็น json นะ)</h1>
-
-            <div class="flex-row-div">
-                <!-- <div class="reccommended-menu-div">
-                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDGc3_8SyhK/" data-instgrm-version="12"></blockquote>
-                    <h3>มากิมะเขือม่วงย่าง</h3>
-                </div> -->
-                <div class="reccommended-menu-div" style="max-width: 50%;">
-                    <img style="max-width: 80%;"
-                        src="https://scontent.fbkk3-4.fna.fbcdn.net/v/t51.75761-15/472022850_18076015894720985_118663733396115287_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE9KijkG3_YJ3qZPwLJa1XA6nj6sOoeAFzqePqw6h4AXDMv3NzKrsU5J7nYFM_ypkVUvN8YDn6kVQt1vMYRG2SA&_nc_ohc=sJCHT5Bie3AQ7kNvgHjEhw7&_nc_zt=23&_nc_ht=scontent.fbkk3-4.fna&_nc_gid=AJrpRZX9hLyeBJYnzCSe81m&oh=00_AYDe_MISotfvxXB798abFP7ptDglY8muHfLqWx3nbwsLKg&oe=6786F8C5"
-                        alt="">
-                    <h3>มากิมะเขือม่วงย่าง</h3>
+        <div class="flex-everything-center">
+            <h2>Recommended Menu</h2>
+            
+            <div style="display: flex; flex-direction: row; gap: 1.5%; justify-content: center; flex-wrap: wrap; margin-bottom: 2%; width: 100%;">
+                <div class="recommended-menu">
+                    <h3>อะไรสักอย่าง</h3>
                 </div>
-
-                <div class="reccommended-menu-div" style="max-width: 50%;">
-                    <img style="max-width: 80%;"
-                        src="https://scontent.fbkk3-4.fna.fbcdn.net/v/t51.75761-15/472022850_18076015894720985_118663733396115287_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE9KijkG3_YJ3qZPwLJa1XA6nj6sOoeAFzqePqw6h4AXDMv3NzKrsU5J7nYFM_ypkVUvN8YDn6kVQt1vMYRG2SA&_nc_ohc=sJCHT5Bie3AQ7kNvgHjEhw7&_nc_zt=23&_nc_ht=scontent.fbkk3-4.fna&_nc_gid=AJrpRZX9hLyeBJYnzCSe81m&oh=00_AYDe_MISotfvxXB798abFP7ptDglY8muHfLqWx3nbwsLKg&oe=6786F8C5"
-                        alt="">
-                    <h3>มากิมะเขือม่วงย่าง</h3>
+                <div class="recommended-menu">
+                    <h3>อะไรสักอย่าง</h3>
+    
                 </div>
-
-                <div class="reccommended-menu-div" style="max-width: 50%;">
-                    <img style="max-width: 80%;"
-                        src="https://scontent.fbkk3-4.fna.fbcdn.net/v/t51.75761-15/472022850_18076015894720985_118663733396115287_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE9KijkG3_YJ3qZPwLJa1XA6nj6sOoeAFzqePqw6h4AXDMv3NzKrsU5J7nYFM_ypkVUvN8YDn6kVQt1vMYRG2SA&_nc_ohc=sJCHT5Bie3AQ7kNvgHjEhw7&_nc_zt=23&_nc_ht=scontent.fbkk3-4.fna&_nc_gid=AJrpRZX9hLyeBJYnzCSe81m&oh=00_AYDe_MISotfvxXB798abFP7ptDglY8muHfLqWx3nbwsLKg&oe=6786F8C5"
-                        alt="">
-                    <h3>มากิมะเขือม่วงย่าง</h3>
+                <div class="recommended-menu">
+                    <h3>อะไรสักอย่าง</h3>
+    
                 </div>
-
-                <div class="reccommended-menu-div" style="max-width: 50%;">
-                    <img style="max-width: 80%;"
-                        src="https://scontent.fbkk3-4.fna.fbcdn.net/v/t51.75761-15/472022850_18076015894720985_118663733396115287_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE9KijkG3_YJ3qZPwLJa1XA6nj6sOoeAFzqePqw6h4AXDMv3NzKrsU5J7nYFM_ypkVUvN8YDn6kVQt1vMYRG2SA&_nc_ohc=sJCHT5Bie3AQ7kNvgHjEhw7&_nc_zt=23&_nc_ht=scontent.fbkk3-4.fna&_nc_gid=AJrpRZX9hLyeBJYnzCSe81m&oh=00_AYDe_MISotfvxXB798abFP7ptDglY8muHfLqWx3nbwsLKg&oe=6786F8C5"
-                        alt="">
-                    <h3>มากิมะเขือม่วงย่าง</h3>
+                <div class="recommended-menu">
+                    <h3>อะไรสักอย่าง</h3>
                 </div>
             </div>
-        </div>
-        <div>
-            <h1>kfeofeofe</h1>
 
         </div>
-
-        <img src="" alt="">
-
-
     </main>
 
     <script></script>
