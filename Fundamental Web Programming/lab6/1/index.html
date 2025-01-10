@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6-1</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .row div {
+            /* border-color: black; */
+            /* border-style: solid ; */
+            width: 30%;
+        }
+
+        @media (max-width:400px) {
+            .row {
+                flex-direction: column;
+            }
+            .row div {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Programming Language</h1>
+        <p>A programming language is a system of notation for writing computer programs. Programming languages are described
+            in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually
+            provide features such as a type system, variables, and mechanisms for error handling.</p>  
+    </main>
+
+    <div class="row">
+        <div style="margin: 10px;">
+            <h1>C</h1>
+            <p>C is a general-purpose programming language. It was created in the 1970s by Dennis Ritchie and remains very widely used and influential.</p>
+        </div>
+
+        <div style="margin: 10px;">
+            <h1>Python</h1>
+            <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+        </div>
+
+        <div style="margin: 10px;">
+            <h1>Java</h1>
+            <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

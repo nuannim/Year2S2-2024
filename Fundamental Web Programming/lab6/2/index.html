@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        div {
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        @media (max-width:1000px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width:600px) {
+            .grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pet Gallery</h1>
+    <div class="grid">
+        <div class="center">
+            <img src="https://cleanmemes.com/wp-content/uploads/2025/01/img_5018-2-1.jpg?w=600" alt="">
+            kfkefe
+        </div>
+        <div class="center">
+            <img src="https://cleanmemes.com/wp-content/uploads/2025/01/img_5024-2-1.jpg?w=600" alt="">
+            fefef
+            <!-- <p>poop</p> -->
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/736x/a6/39/0f/a6390f619690577266dacb3e1a361239.jpg" alt="">
+            gge
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/736x/66/a4/77/66a47772783233ff43f559f1b9ccbe40.jpg" alt="">
+            fe
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/736x/d5/80/06/d580062ed2ecccbd2c9b4d786d19850e.jpg" alt="">
+            ge
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/736x/b5/b1/4f/b5b14f00f49f7ca4341b4527bfb1fda1.jpg" alt="">
+            gge
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/736x/fb/c3/a5/fbc3a5c987f76d698509b4ffcd0986a8.jpg" alt="">
+            feifoer
+        </div>
+        <div class="center">
+            <img src="https://i.pinimg.com/236x/70/52/a2/7052a26d878189c1a8308ffe6e99903e.jpg" alt="">
+            feefe
+        </div>
+    </div>
+
+</body>
+
+</html>

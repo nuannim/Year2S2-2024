@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6-3</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            /* flex-direction: row; */
+        }
+
+        @media (max-width:1000px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width:600px) {
+            .grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(182, 182, 182);">
+        <h1>What is Web Technology?</h1>
+        <p>
+            Web technology refers to the means by which computers communicate with each other using markup languages and
+            multimedia packages. It gives us a way to interact with hosted information, like websites.
+        </p>
+    </div>
+    
+    <div class="grid">
+
+        <div>
+            <h1>HTML</h1>
+            <p>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in
+                a web browser. It defines the content and structure of web content. It is often assisted by technologies
+                such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language.
+            </p>
+        </div>
+
+        <div>
+            <h1>CSS</h1>
+            <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+        </div>
+        
+        <div>
+            <h1>JavaScript</h1>
+            <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 
+                99% of websites use JavaScript on the client side for webpage behavior.</p>
+        </div>
+        
+        <div>
+            <h1>Bootstrap</h1>
+            <p>Bootstrap Icons is an open source SVG icon library featuring over 1,800 glyphs, with more added every release.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
