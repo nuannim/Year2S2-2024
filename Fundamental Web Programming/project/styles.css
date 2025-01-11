@@ -10,26 +10,36 @@
 
 }
 
+/* main & body //////////////////////////////////////////////////// */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 body {
     margin: 0px;
     background-color: #86c2b43b;
-    /* display: flex; */
-    /* flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
+
 }
 
-/* main {
-    margin: 30px;
-    border-radius: 10px;
 
-} */
-
-/* ///////////////////////////////////////// */
+/* div ///////////////////////////////////////// */
 div {
     /* margin-top: 20px; */
     /* text-align: center; */
     border-radius: 10px;
 }
 
+/* h ///////////////////////////////////////////////////// */
 h1 {
     font-size: 80px;
 }
@@ -37,7 +47,8 @@ h1 {
 h2 {
     font-size: 50px;
 }
-/* ///////////////////////////////////////// */
+
+/* button ///////////////////////////////////////// */
 button {
     padding: 12px 20px;
     color: white;
@@ -59,13 +70,15 @@ button:active {
 
 
 
-/* ///////////////////////////////////////// */
+/* nav ////////////////////////////////////// */
 .nav ul {
     list-style-type: none;
     background-color: #49c5a8;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+
 }
 
 .nav a {
@@ -88,12 +101,8 @@ button:active {
     float: left;
 }
 
-.eatfoodwithmercy-account {
-    max-width: 60%;
-    /* width: 1px;
-    height: 1px; */
-    margin: 10px;
-}
+
+/** link /////////////////////////////////// */
 
 .hidden-link {
     color: black;
@@ -111,4 +120,54 @@ button:active {
 
 .link-cgm48-color:hover {
     opacity: 0.5;
+}
+
+/** about.html ////////////////////////////////// */
+
+.eatfoodwithmercy-account {
+    max-width: 60%;
+    /* width: 1px;
+    height: 1px; */
+    margin: 10px;
+}
+
+/** index.html /////////////////////////////////////*/
+
+.recommended-menu {
+    background-color: rgba(255, 255, 255, 0.746);
+
+    width: 37vh;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.recommended-menu p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.recommended-menu img {
+    height: 50%;
+    border-radius: 3px;
+    margin-top: 13%;
+}
+
+.flex-everything-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-container {
+    height: 550px;
+    align-items: flex-start;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.746);
 }

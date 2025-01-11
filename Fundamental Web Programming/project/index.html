@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,58 +7,15 @@
     <title>hi there from Mars! Vegetarian</title>
     <link rel="stylesheet" href="styles.css">
 
-    <style>
-        div {
-            /* border-style: solid; */
-        }
-
-        .recommended-menu {
-            /* border-style: solid; */
-            /* border-color: yellowgreen; */
-
-            background-color: rgba(255, 255, 255, 0.746);
-
-            width: 37vh;
-            height: 350px;
-        }
-
-        main {
-            /* border-style: solid;
-            border-color: blue; */
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            /* align-items: center; */
-            margin-right: 10%;
-            margin-left: 10%;
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .flex-everything-center {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-    </style>
 </head>
 
-<body style="">
+<body>
     <nav class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="references.html">References</a></li>
             <li><button onclick="window.location.href='https://www.instagram.com/realnuannim';">Who is Nuannim?</button>
             </li>
         </ul>
@@ -65,36 +23,82 @@
 
     <main style="gap: 50px">
 
-        <div class="flex-everything-center" 
-            style="height: 550px; align-items: flex-start; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.714), rgba(255, 255, 255, 0)), 
-                          url('https://images-prod.healthline.com/hlcmsresource/images/AN_images/vegetarian-diet-plan-1296x728-feature.jpg');
-                background-size: 140%; background-position: center left;
-            ">
-            <h1 style="color: aliceblue; margin-left: 90px;">แบ่งปัน<br>มังสวิรัติกินอะไร</h1>
+        <!-- <div class="flex-everything-center" style="height: 550px; align-items: flex-start; 
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.714), rgba(255, 255, 255, 0)), 
+                url('https://images-prod.healthline.com/hlcmsresource/images/AN_images/vegetarian-diet-plan-1296x728-feature.jpg');
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            background-size: 140%; background-position: center left; 
+            "> -->
+        <div class="big-container flex-everything-center" 
+            style=" background-image: linear-gradient(to right, rgba(0, 0, 0, 0.714), rgba(255, 255, 255, 0)), 
+            url('https://images-prod.healthline.com/hlcmsresource/images/AN_images/vegetarian-diet-plan-1296x728-feature.jpg');
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            background-size: 140%; background-position: center left; ">
+            <h1 style="color: aliceblue; margin-left: 90px;">มังสวิรัติกินอะไรดี?</h1>
         </div>
 
         <div class="flex-everything-center">
             <h2>Recommended Menu</h2>
-            
-            <div style="display: flex; flex-direction: row; gap: 1.5%; justify-content: center; flex-wrap: wrap; margin-bottom: 2%; width: 100%;">
-                <div class="recommended-menu">
-                    <h3>อะไรสักอย่าง</h3>
-                </div>
-                <div class="recommended-menu">
-                    <h3>อะไรสักอย่าง</h3>
-    
-                </div>
-                <div class="recommended-menu">
-                    <h3>อะไรสักอย่าง</h3>
-    
-                </div>
-                <div class="recommended-menu">
-                    <h3>อะไรสักอย่าง</h3>
-                </div>
+
+            <div
+                style="display: flex; flex-direction: row; gap: 1.5%; justify-content: center; flex-wrap: wrap; margin-bottom: 2%; width: 100%;">
+                <a href="https://www.google.com/maps/search/on+the+table+%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99/"
+                    class="hidden-link" style="display: flex;">
+                    <div class="recommended-menu">
+                        <!-- <img src="https://img.wongnai.com/p/1600x0/2021/09/01/ec12960e4ca3425088a373fc26154808.jpg" alt=""> -->
+                            <img src="images/food-on-the-table.jpg" alt="">
+                        <h3 style="margin-bottom: 0%;">มากิมะเขือม่วงย่าง</h3>
+                        <p>ร้านอาหาร On the table ทุกสาขา</p>
+                    </div>
+                </a>
+
+                <a href="https://maps.app.goo.gl/VLvauoNcngDbGsTa6" class="hidden-link" style="display: flex;">
+                    <div class="recommended-menu">
+                        <img src="images/food-kaning-padthai.jpg" alt="">
+                        <h3 style="margin-bottom: 0%;">ผัดไทย</h3>
+                        <p>ร้านอาหาร ผัดไทยครบรส เชียงใหม่</p>
+                    </div>
+                </a>
+
+                <a href="https://maps.app.goo.gl/DRuEBvqetNgmGmBu7" class="hidden-link" style="display: flex;">
+                    <div class="recommended-menu">
+                        <img src="images/food-shu-homemade.jpg" alt="">
+                        <h3 style="margin-bottom: 0%;">Home Pesto เห็ด</h3>
+                        <p>ร้านอาหาร Shu Homemade เชียงใหม่</p>
+                    </div>
+                </a>
+
+                <a href="https://maps.app.goo.gl/Dzu8W6LKAXfSP6B88" class="hidden-link" style="display: flex;">
+                    <div class="recommended-menu">
+                        <img src="images/food-navayla.jpg" alt="">
+                        <h3 style="margin-bottom: 0%;">Vegan ทงคัสซึราเมง</h3>
+                        <p>ร้านอาหาร ณ เวลา พาเพลิน บางขุนนนท์ กรุงเทพฯ</p>
+                    </div>
+                </a>
             </div>
+            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+
+        </div>
+        <br>
+        <div class="big-container flex-everything-center" style="align-items: center;">
+            <h2>2 เหตุผลที่ทำให้ใครสักคนกินมังสวิรัติ</h2>
+            <ul style="margin-right: 100px; margin-left: 100px;">
+                <li style="font-size: 25px;">ฟาร์มปศุสัตว์ในปัจจุบันปล่อยแก๊สเรือนกระจกในโลกนี้มากกว่าที่เราคิด
+                    การกินมังสวิรัติจึงช่วยเรื่องโลกร้อนได้นะ</li>
+                <li style="font-size: 25px;">สงสารน้อง ๆ ที่ถูกทำเป็นอาหาร แง</li>
+            </ul>
+            <p style="font-size: 25px;">ยังไงก็ศึกษาเรื่องโภชนาการอย่างละเอียดก่อนเริ่มทานด้วยนะ</p>
 
         </div>
     </main>
+    <div style="background-color: #49c5a8; border-radius: 0;">
+        <p style="font-size: 12px; color: aliceblue; text-align: center; margin-left: 5%; margin-right: 5%;" >
+            ก่อนที่จะเลือกรับประทานมังสวิรัติควรศึกษาข้อมูลรายละเอียดทางด้านโภชนาการ
+            รวมทั้งรับทราบเกี่ยวกับสุขภาพร่างกายของตนเองว่าหากไม่บริโภคเนื้อสัตว์จะมีความเสี่ยงที่ผิดปกติหรือไม่
+            รวมทั้งหลีกเลี่ยงอาหารที่มีรสจัดโดยเฉพาะหวาน มัน เค็ม รวมทั้งที่มีไขมันและแคลอรี่สูงอีกด้วย
+            เพื่อให้สุขภาพที่ดีจากการละเว้นเนื้อสัตว์</p>
+        <p style="color: aliceblue; text-align: center;">developed by <a href="https://www.instagram.com/realnuannim/" class="hidden-link">@realnuannim</a></p>
+    </div>
 
     <script></script>
     <script async src="//www.instagram.com/embed.js"></script>
