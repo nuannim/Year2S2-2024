@@ -16,10 +16,13 @@ main {
     flex-direction: column;
     justify-content: center;
 
-    margin-right: 10%;
+    /* margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 5%; */
+
+    margin: 5%;
+    gap: 50px;
 }
 
 body {
@@ -76,6 +79,7 @@ button:active {
     background-color: #49c5a8;
     padding: 0px;
     margin: 0px;
+    padding-left: 10px;
     overflow: hidden;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 
@@ -131,6 +135,23 @@ button:active {
     margin: 10px;
 }
 
+#eatfoodwithmercy h1 {
+    /* font-size: 30px; */
+    margin: 0;
+}
+
+#eatfoodwithmercy h2 {
+    margin-top: 2%;
+}
+
+#eatfoodwithmercy img {
+    border-radius: 7px;
+}
+
+#eatfoodwithmercy p {
+    margin-bottom: 70px;
+}
+
 /** index.html /////////////////////////////////////*/
 
 .recommended-menu {
@@ -170,4 +191,203 @@ button:active {
     align-items: flex-start;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.746);
+}
+
+.big-container ul {
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.big-container li {
+    font-size: 25px;
+}
+
+.big-container p {
+    font-size: 25px;
+}
+
+#first-h1 {
+    color: aliceblue; 
+    margin-left: 90px;  
+}
+
+.recommended-menu-topic {
+    display: flex; 
+    flex-direction: row; 
+    gap: 1.5%; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 2%; 
+    width: 100%;
+}
+
+.end {
+    background-color: #49c5a8; 
+    border-radius: 0;
+}
+
+.end p {
+    font-size: 16px; 
+    color: aliceblue; 
+    text-align: center; 
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
+@media (max-width: 400px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding: 0 ; /* ลด padding */
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
+    .nav li {
+        float: none; /* แสดงเป็น block เพื่อจัดเรียงแนวตั้ง (ถ้าจำเป็น) */
+        display: inline-block; 
+        width: 15%; 
+    }
+
+    .nav a {
+        font-size: 16px; /* ลดขนาดฟอนต์ */
+        padding: 2px 1px;
+    }
+
+    button {
+        margin-left: 40px;
+        font-size: 8px; /* ลดขนาดปุ่ม */
+        padding: 8px 10px;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 40px;
+        /* margin: 20px; */
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;   
+    }
+    
+    p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #first-h1 {
+        margin-left: 0px;
+        font-size: 37px;
+        text-align: center;
+        padding: 1%;
+    }
+
+
+    .recommended-menu {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .recommended-menu img {
+        width: 50%;
+        height: auto;
+    }
+
+    a {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px; 
+    }
+
+    main {
+        margin: 5%;
+        gap: 0px;
+    }
+
+    .big-container {
+        height: auto;
+        padding: 20px;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .big-container h1 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .big-container ul {
+        margin: 0;
+    }
+    
+    .big-container li {
+        font-size: 16px;
+    }
+    
+    .big-container p {
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    .recommended-menu-topic {
+        gap: 5%; 
+        margin-bottom: 0; 
+        width: 100%;
+    }
+
+    .end {
+        background-color: #49c5a8; 
+        border-radius: 0;
+    }
+
+    .end p {
+        font-size: 9px; 
+    }
+
+    .flex-everything-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #eatfoodwithmercy h1 {
+        font-size: 30px;
+        /* margin: 0; */
+        /* text-align: center; */
+    }
+    
+    #eatfoodwithmercy h2 {
+        /* margin-top: 2%; */
+        font-size: 20px;
+    }
+    
+    #eatfoodwithmercy img {
+        /* border-radius: 7px; */
+        /* height: 1000px; */
+        height: 100%;
+        width: auto;
+    }
+    
+    #eatfoodwithmercy p {
+        margin-bottom: 70px;
+    }
 }

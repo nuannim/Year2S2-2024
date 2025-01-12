@@ -19,65 +19,131 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="references.html">References</a></li>
+            <li><a href="about.html">References</a></li>
             <li><button onclick="window.location.href='https://www.instagram.com/realnuannim';">Who is Nuannim?</button>
             </li>
         </ul>
     </nav>
 
-    <main style="gap: 50px">
+    <main>
         <div class="flex-everything-center">
-            <h2 style="margin-top: 0;">Menu เมนู</h2>
+            <h2 style="margin-top: 0;">Food อาหาร</h2>
 
-            <div
-                style="display: flex; flex-direction: row; gap: 1.5%; justify-content: center; flex-wrap: wrap; margin-bottom: 2%; width: 100%;">
+            <div id="food-container" class="recommended-menu-topic">
             </div>
             <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
-
         </div>
-        <!-- <br> -->
-        <!-- <div class="big-container flex-everything-center" style="align-items: center;">
-            <h2>2 เหตุผลที่ทำให้ใครสักคนกินมังสวิรัติ</h2>
-            <ul style="margin-right: 100px; margin-left: 100px;">
-                <li style="font-size: 25px;">ฟาร์มปศุสัตว์ในปัจจุบันปล่อยแก๊สเรือนกระจกในโลกนี้มากกว่าที่เราคิด
-                    การกินมังสวิรัติจึงช่วยเรื่องโลกร้อนได้นะ</li>
-                <li style="font-size: 25px;">สงสารน้อง ๆ ที่ถูกทำเป็นอาหาร แง</li>
-            </ul>
-            <p style="font-size: 25px;">ยังไงก็ศึกษาเรื่องโภชนาการอย่างละเอียดก่อนเริ่มทานด้วยนะ</p>
-        </div> -->
+
+        <div class="flex-everything-center">
+            <h2 style="margin-top: 0;">Dessert ของหวาน</h2>
+
+            <div id="dessert-container" class="recommended-menu-topic">
+            </div>
+            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+        </div>
+
+        <div class="flex-everything-center">
+            <h2 style="margin-top: 0;">Mom's Signature อาหารสไตล์คุณแม่</h2>
+
+            <div id="signature-container" class="recommended-menu-topic">
+            </div>
+            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+        </div>
+
     </main>
 
-    <div style="background-color: #49c5a8; border-radius: 0;">
-        <p style="font-size: 12px; color: aliceblue; text-align: center; margin-left: 5%; margin-right: 5%;">
+    <div class="end">
+        <p>
             ก่อนที่จะเลือกรับประทานมังสวิรัติควรศึกษาข้อมูลรายละเอียดทางด้านโภชนาการ
             รวมทั้งรับทราบเกี่ยวกับสุขภาพร่างกายของตนเองว่าหากไม่บริโภคเนื้อสัตว์จะมีความเสี่ยงที่ผิดปกติหรือไม่
             รวมทั้งหลีกเลี่ยงอาหารที่มีรสจัดโดยเฉพาะหวาน มัน เค็ม รวมทั้งที่มีไขมันและแคลอรี่สูงอีกด้วย
             เพื่อให้สุขภาพที่ดีจากการละเว้นเนื้อสัตว์</p>
-        <p style="color: aliceblue; text-align: center;">developed by <a href="https://www.instagram.com/realnuannim/"
+        <p style="text-align: center;">developed by <a href="https://www.instagram.com/realnuannim/"
                 class="hidden-link">@realnuannim</a></p>
     </div>
 
     <script>
+        //     fetch('data.json')
+        //         .then(response => response.json())
+        //         .then(data => {
+        //             const container = document.querySelector('.flex-everything-center > div');
+        //             data.forEach(item => {
+        //                 const menuCard = document.createElement('a');
+        //                 menuCard.href = item.googleMapsLink;
+        //                 menuCard.className = 'hidden-link';
+        //                 menuCard.style.display = 'flex';
+
+        //                 menuCard.innerHTML = `
+        //     <div class="recommended-menu" style="margin-bottom: 5%">
+        //       <img src="${item.imagePath}" alt="${item.menuName}">
+        //       <h3 style="margin-bottom: 0%;">${item.menuName}</h3>
+        //       <p>${item.restaurantName}</p>
+        //     </div>
+        //   `;
+
+        //                 container.appendChild(menuCard);
+        //             });
+        //         })
+        //         .catch(error => console.error('Error loading menu data:', error));
+
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                const container = document.querySelector('.flex-everything-center > div');
-                data.forEach(item => {
+                // ส่วนของ "อาหาร"
+                const foodContainer = document.getElementById('food-container');
+                data.food.forEach(item => {
                     const menuCard = document.createElement('a');
                     menuCard.href = item.googleMapsLink;
                     menuCard.className = 'hidden-link';
                     menuCard.style.display = 'flex';
 
                     menuCard.innerHTML = `
-        <div class="recommended-menu" style="margin-bottom: 5%">
-          <img src="${item.imagePath}" alt="${item.menuName}">
-          <h3 style="margin-bottom: 0%;">${item.menuName}</h3>
-          <p>${item.restaurantName}</p>
-        </div>
-      `;
+                <div class="recommended-menu" style="margin-bottom: 5%">
+                    <img src="${item.imagePath}" alt="${item.menuName}">
+                    <h3 style="margin-bottom: 0%;">${item.menuName}</h3>
+                    <p>${item.restaurantName}</p>
+                </div>
+            `;
 
-                    container.appendChild(menuCard);
+                    foodContainer.appendChild(menuCard);
+                });
+
+                // ส่วนของ "ของหวาน"
+                const dessertContainer = document.getElementById('dessert-container');
+                data.dessert.forEach(item => {
+                    const menuCard = document.createElement('a');
+                    menuCard.href = item.googleMapsLink;
+                    menuCard.className = 'hidden-link';
+                    menuCard.style.display = 'flex';
+
+                    menuCard.innerHTML = `
+                <div class="recommended-menu" style="margin-bottom: 5%">
+                    <img src="${item.imagePath}" alt="${item.menuName}">
+                    <h3 style="margin-bottom: 0%; text-align: center; margin-left: 10px; margin-right: 10px;">${item.menuName}</h3>
+                    <p>${item.restaurantName}</p>
+                </div>
+            `;
+
+                    dessertContainer.appendChild(menuCard);
+                });
+
+                // ส่วนของ "เครื่องดื่ม"
+                const signatureContainer = document.getElementById('signature-container');
+                data.signature.forEach(item => {
+                    const menuCard = document.createElement('a');
+                    menuCard.href = item.googleMapsLink;
+                    menuCard.className = 'hidden-link';
+                    menuCard.style.display = 'flex';
+
+                    menuCard.innerHTML = `
+                <div class="recommended-menu" style="margin-bottom: 5%">
+                    <img src="${item.imagePath}" alt="${item.menuName}">
+                    <h3 style="margin-bottom: 0%; text-align: center; margin-left: 10px; margin-right: 10px;">${item.menuName}</h3>
+                    <p>${item.restaurantName}</p>
+                </div>
+            `;
+
+                    signatureContainer.appendChild(menuCard);
                 });
             })
             .catch(error => console.error('Error loading menu data:', error));
