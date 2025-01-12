@@ -383,8 +383,8 @@ button:active {
     #eatfoodwithmercy img {
         /* border-radius: 7px; */
         /* height: 1000px; */
-        /* height: 100%; */
-        /* width: auto; */
+        height: auto; 
+        width: auto; 
     }
     
     #eatfoodwithmercy p {
