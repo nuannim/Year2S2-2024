@@ -1,100 +1,100 @@
 {
   "food": [
     {
-      "googleMapsLink": "details/food-on-the-table.html",
+      "googleMapsLink": "https://www.google.com/maps/search/on+the+table+%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99/",
       "imagePath": "images/food-on-the-table.jpg",
       "menuName": "มากิมะเขือม่วงย่าง",
       "restaurantName": "On The Table ทุกสาขา"
     },
     {
-      "googleMapsLink": "details/food-kaning-padthai.html",
+      "googleMapsLink": "https://maps.app.goo.gl/VLvauoNcngDbGsTa6",
       "imagePath": "images/food-kaning-padthai.jpg",
       "menuName": "ผัดไทย",
       "restaurantName": "ผัดไทยครบรส เชียงใหม่"
     },
     {
-      "googleMapsLink": "details/food-shu-homemade.html",
+      "googleMapsLink": "https://maps.app.goo.gl/DRuEBvqetNgmGmBu7",
       "imagePath": "images/food-shu-homemade.jpg",
       "menuName": "Home Pesto เห็ด",
       "restaurantName": "Shu Homemade เชียงใหม่"
     },
     {
-      "googleMapsLink": "details/food-navayla.html",
+      "googleMapsLink": "https://maps.app.goo.gl/Dzu8W6LKAXfSP6B88",
       "imagePath": "images/food-navayla.jpg",
       "menuName": "Vegan ทงคัสซึราเมง",
       "restaurantName": "ณ เวลา พาเพลิน บางขุนนนท์ กรุงเทพฯ"
     },
     {
-      "googleMapsLink": "details/food-kinphak.html",
+      "googleMapsLink": "https://maps.app.goo.gl/9fQP8BHPzLA4eCba8",
       "imagePath": "images/food-kinphak.jpg",
       "menuName": "Vegan ข้าวซอย",
       "restaurantName": "กินผัก เชียงใหม่"
     },
     {
-      "googleMapsLink": "details/food-7yod.html",
+      "googleMapsLink": "https://maps.app.goo.gl/FKjkb3p286o4FxXF6",
       "imagePath": "images/food-7yod.jpg",
       "menuName": "ราดหน้าเส้นกรอบ ใส่ไข่เจียว",
       "restaurantName": "ราดหน้าเจ็ดยอด"
     },
     {
-      "googleMapsLink": "details/food-posop.html",
+      "googleMapsLink": "https://maps.app.goo.gl/bqj5qxALLVZXWB3X6",
       "imagePath": "images/food-posop.jpg",
       "menuName": "Vegan Rice Paper Rolls",
       "restaurantName": "โพสพ เชียงใหม่"
     },
     {
-      "googleMapsLink": "details/food-ozawa.html",
+      "googleMapsLink": "https://www.google.com/maps/search/Ozawa+Ramen+%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99/",
       "imagePath": "images/food-ozawa.jpg",
       "menuName": "ทงคัตซึราเมง ไม่ใส่เนื้อสัตว์",
       "restaurantName": "Ozawa Ramen ทุกสาขา"
     },
     {
-      "googleMapsLink": "details/food-suki.html",
+      "googleMapsLink": "https://www.google.com/maps/search/%E0%B8%AA%E0%B8%B8%E0%B8%81%E0%B8%B5%E0%B9%89%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B7%E0%B8%AD%E0%B8%81+%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99/",
       "imagePath": "images/food-suki.jpg",
       "menuName": "สุกี้ราดข้าว",
       "restaurantName": "สุกี้ช้างเผือก ทุกสาขา"
     },
     {
-      "googleMapsLink": "details/food-hachiban.html",
+      "googleMapsLink": "https://www.google.com/maps/search/hachiban+near+me/",
       "imagePath": "images/food-hachiban.jpg",
       "menuName": "ซารุ ราเมง",
       "restaurantName": "ฮาจิบัง ราเมง ทุกสาขา"
     },
     {
-      "googleMapsLink": "details/food-eggplantmiso.html",
+      "googleMapsLink": "https://maps.app.goo.gl/mNy4zkV7dAaQU8Mj9",
       "imagePath": "images/food-eggplantmiso.jpg",
       "menuName": "มะเขือม่วงซอสมิโซะ",
       "restaurantName": "Tengoku De Cuisine เชียงใหม่"
     }
-],
+  ],
 
   "dessert": [
     {
-      "googleMapsLink": "details/dessert-grassjelly-kiwi.html",
+      "googleMapsLink": "",
       "imagePath": "images/dessert-grassjelly-kiwi.jpg",
       "menuName": "เฉาก๊วยกีวี่",
       "restaurantName": ""
     },
     {
-      "googleMapsLink": "details/dessert-coldtofu.html",
+      "googleMapsLink": "",
       "imagePath": "images/dessert-coldtofu.jpg",
       "menuName": "เต้าหู้เย็นและขิง",
       "restaurantName": ""
     },
     {
-      "googleMapsLink": "details/dessert-sorbet-chilisalt.html",
+      "googleMapsLink": "",
       "imagePath": "images/dessert-sorbet-chilisalt.jpg",
       "menuName": "Sorbet ผลไม้เปรี้ยว<br>และพริกเกลือ",
       "restaurantName": ""
     },
     {
-      "googleMapsLink": "details/dessert-yogurt.html",
+      "googleMapsLink": "",
       "imagePath": "images/dessert-yogurt.jpg",
       "menuName": "โยเกิร์ตมะพร้าว<br>อโวคาโดน้ำผึ้งซีเรียล",
       "restaurantName": ""
     },
     {
-      "googleMapsLink": "details/dessert-sourdough.html",
+      "googleMapsLink": "",
       "imagePath": "images/dessert-sourdough.jpg",
       "menuName": " Sourdough สตอเบอร์รี่",
       "restaurantName": ""
@@ -103,28 +103,28 @@
   ],
   "signature": [
     {
-      "googleMapsLink": "details/mom-mala.html",
+      "googleMapsLink": "",
       "imagePath": "images/mom-mala.jpg",
       "menuName": "ข้าวพริกหยวกผัดหม่าล่า",
       "restaurantName": "Delivery ทั่วไทย"
     },
     {
-      "googleMapsLink": "details/mom-chilisalt.html",
+      "googleMapsLink": "",
       "imagePath": "images/mom-chilisalt.jpg",
       "menuName": "เห็ดคั่วพริกเกลือและซุปมิโซะ",
       "restaurantName": "Delivery ทั่วไทย"
     },
     {
-      "googleMapsLink": "details/mom-vegan-breakfast.html",
+      "googleMapsLink": "",
       "imagePath": "images/mom-vegan-breakfast.jpg",
       "menuName": "ชุดอาหารเช้า",
       "restaurantName": "Delivery ทั่วไทย"
     },
     {
-      "googleMapsLink": "details/mom-box.html",
+      "googleMapsLink": "",
       "imagePath": "images/mom-box.jpg",
-      "menuName": "รวมมิตรมังสวิรัติ",
+      "menuName": " รวมมิตรมังสวิรัติ",
       "restaurantName": "Delivery ทั่วไทย"
-    }    
+    }
   ]
 }

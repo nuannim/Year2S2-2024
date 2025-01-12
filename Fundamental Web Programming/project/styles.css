@@ -234,6 +234,21 @@ button:active {
     margin-right: 5%;
 }
 
+
+.small-container {
+    height: auto;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    gap: 5%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.746);
+}
+
 @media (max-width: 400px) {
 
     body {
@@ -389,5 +404,9 @@ button:active {
     
     #eatfoodwithmercy p {
         margin-bottom: 70px;
+    }
+
+    .small-container {
+        flex-direction: column;
     }
 }

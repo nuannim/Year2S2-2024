@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
-        div {
-            /* border: solid; */
-        }
+
     </style>
 </head>
 
@@ -31,7 +29,7 @@
 
             <div id="food-container" class="recommended-menu-topic">
             </div>
-            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+            <p>แตะเพื่อดูรายละเอียดได้เลย</p>
         </div>
 
         <div class="flex-everything-center">
@@ -39,7 +37,7 @@
 
             <div id="dessert-container" class="recommended-menu-topic">
             </div>
-            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+            <p>แตะเพื่อดูรายละเอียดได้เลย</p>
         </div>
 
         <div class="flex-everything-center">
@@ -47,7 +45,7 @@
 
             <div id="signature-container" class="recommended-menu-topic">
             </div>
-            <p>แตะเพื่อดูที่อยู่ร้านได้เลย</p>
+            <p>แตะเพื่อดูรายละเอียดได้เลย</p>
         </div>
 
     </main>
@@ -94,6 +92,7 @@
                 data.food.forEach(item => {
                     const menuCard = document.createElement('a');
                     menuCard.href = item.googleMapsLink;
+                    menuCard.target = '_blank';
                     menuCard.className = 'hidden-link';
                     menuCard.style.display = 'flex';
 
@@ -113,6 +112,7 @@
                 data.dessert.forEach(item => {
                     const menuCard = document.createElement('a');
                     menuCard.href = item.googleMapsLink;
+                    menuCard.target = '_blank';
                     menuCard.className = 'hidden-link';
                     menuCard.style.display = 'flex';
 
@@ -132,6 +132,7 @@
                 data.signature.forEach(item => {
                     const menuCard = document.createElement('a');
                     menuCard.href = item.googleMapsLink;
+                    menuCard.target = '_blank';
                     menuCard.className = 'hidden-link';
                     menuCard.style.display = 'flex';
 
