@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="div">
+        <p>test</p>
+    </div>
+
+    <script>
+        function display(data) {
+
+            let div = document.getElementById('div');
+            div.innerHTML = '';
+
+            data.forEach(element => {
+                let category = element.category;
+
+                element.laureates.forEach(laureates => {
+                    let p = document.createElement('p');
+
+                    p.textContent = `${laureates.id}) ${laureates.firstname} ${laureates.surname} (${element.year}), ${category}, ${laureates.motivation}`;
+                    div.appendChild(p);
+                })
+                
+            });
+        }
+
+        fetch('http://10.0.15.21/lab/lab7/files/nobleprize.json')
+            .then(response => response.json()) // แปลงข้อมูลเป็น JSON
+            .then(data => display(data)) // ส่งข้อมูลไปยังฟังก์ชัน display
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+
+</html>
