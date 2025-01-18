@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="out"></p>
+
+    <script>
+
+        let myObj = {
+            "firstname": "John",
+            "lastname": "Doe",
+            "age": 30,
+            "cars": ["Ford", "BMW", "Fiat"]
+        };
+
+    </script>
+    <!--* a -->
+    <!-- <script>
+
+        document.getElementById("out").innerHTML = myObj.firstname;
+
+    </script> -->
+
+    <!--* b -->
+    <script>
+        let i = 1
+
+        document.getElementById("out").innerHTML = myObj.cars[i];
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="myForm" role="form">
+        <div class="form-group"> <label for='FirstName'>ชื่อ:</label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" />
+        </div>
+        <div class="form-group"><label for='LastName'>นามสกุล:</label>
+            <input type="text" class="form-control" id="LastName" name="LastName" />
+        </div>
+        <div class="form-group"><label for='Address'>ที่อยู่</label>
+            <textarea cols="20" class="form-control" rows="5" id="Address" name="Address"></textarea>
+        </div>
+        <div class="form-group"><label for='Country'>ประเทศ:</label>
+            <select id="Country" name="Country">
+                <option value="000" selected="selected">[เลือกประเทศ]</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Laos">Laos</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Indonesia">Brunei</option>
+                <option value="Indonesia">Indonesia</option>
+            </select>
+        </div>
+    </form>
+    <button onclick="SaveDatInForm()">Save data</button>
+    <button onclick="showLocalData()">Show data</button>
+
+    <script>
+
+        function SaveDatInForm() {
+            let fname = document.getElementById("FirstName").value;
+            let lname = document.getElementById("LastName").value;
+            let address = document.getElementById("Address").value;
+            let country = document.getElementById("Country").value;
+            // save data to local storage
+            localStorage.setItem('userFirstName', fname);
+            localStorage.setItem('userLastName', lname);
+            localStorage.setItem('userAddress', address);
+            localStorage.setItem('userCountry', country);
+            alert("Data saved");
+        }
+        function showLocalData() {
+            // load data from local storage
+            let fn = localStorage.getItem('userFirstName');
+            let ln = localStorage.getItem('userLastName');
+            let add = localStorage.getItem('userAddress');
+            let c = localStorage.getItem('userCountry');
+
+            document.getElementById("FirstName").value = fn;
+            document.getElementById("LastName").value = ln;
+            document.getElementById("Address").value = add;
+            document.getElementById("Country").value = c;
+            
+        }
+    </script>
+</body>
+
+</html>
