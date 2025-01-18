@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            background-color: rgba(0, 0, 0, 0.155);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            /* border: solid red; */
+
+        }
+
+        img {
+            width: 200px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* grid-gap: 0; */
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main">
+    </main>
+    <script>
+
+        let count = 1;
+
+        function display(data) {
+            let main = document.getElementById("main");
+            main.innerHTML = '';
+
+
+            data.forEach(object => {
+                let div = document.createElement("div");
+                let h3 = document.createElement("h3");
+                let p1 = document.createElement("p");
+                let p2 = document.createElement("p");
+                let p3 = document.createElement("p");
+                let img = document.createElement("img");
+
+                h3.textContent = `${count}. ${object.name}`;
+                p1.textContent = `Physics: ${object.physics}`;
+                p2.textContent = `Math: ${object.maths}`;
+                p3.textContent = `English: ${object.english}`;
+                img.src = object.gender === 'Male' ? 'http://10.0.15.21/lab/lab5/images/img_male.png' : 'http://10.0.15.21/lab/lab5/images/img_female.png';
+
+                div.appendChild(img);
+                div.appendChild(h3);
+                div.appendChild(p1);
+                div.appendChild(p2);
+                div.appendChild(p3);
+
+                main.appendChild(div);
+
+                count += 1;
+            });
+        }
+
+        fetch('http://10.0.15.21/lab/lab5/json/student-score.json')
+            .then(response => response.json()) // แปลงข้อมูลเป็น JSON
+            .then(data => display(data)) // ส่งข้อมูลไปยังฟังก์ชัน display
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+
+</html>

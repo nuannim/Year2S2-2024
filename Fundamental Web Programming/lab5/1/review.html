@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5-1 Review</title>
+
+    <style>
+        td {
+            padding: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2; /* สีพื้นหลังแถวเลขคี่ */
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff; /* สีพื้นหลังแถวเลขคู่ */
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Position</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <!-- <tr>
+                <td>1</td>
+                <td>3232</td>
+                <td>43324432</td>
+                <td>432432</td>
+                <td>432423</td>
+            </tr> -->
+        </tbody>
+    </table>
+
+    <script>
+
+        function display(data) {
+            let tbody = document.getElementById("tbody");
+            tbody.innerHTML = '';
+
+            data.forEach(object => {
+                let tr = document.createElement("tr");
+                let td = document.createElement("td");
+                let td2 = document.createElement("td");
+                let td3 = document.createElement("td");
+                let td4 = document.createElement("td");
+                let td5 = document.createElement("td");
+
+                td.textContent = `${object.id}`;
+                td2.textContent = `${object.FirstName} ${object.LastName}`;
+                td3.textContent = `${object.Gender[0]}`;
+                td4.textContent = `${object.Position}`;
+                td5.textContent = `${object.Address}`;
+
+                tr.appendChild(td);
+                tr.appendChild(td2);
+                tr.appendChild(td3);
+                tr.appendChild(td4);
+                tr.appendChild(td5);
+
+                tbody.appendChild(tr);
+
+            });
+        }
+
+        fetch('http://10.0.15.21/lab/lab5/json/employees.json')
+            .then(response => response.json()) // แปลงข้อมูลเป็น JSON
+            .then(data => display(data)) // ส่งข้อมูลไปยังฟังก์ชัน display
+            .catch(error => console.error('Error fetching data:', error));
+
+    </script>
+</body>
+
+</html>

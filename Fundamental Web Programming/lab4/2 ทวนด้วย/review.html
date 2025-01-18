@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            /* border-style: solid; */
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            /* จัดซ้ายขวา */
+
+            align-items: center;
+            /*จัดขึ้นลง*/
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div>
+        <p>
+            <label for="fname" name="fname" id="fname">ชื่อ: </label>
+            <input type="text" name="fname-input" id="fname-input">
+        </p>
+
+        <p>
+            <label for="lname" name="lname" id="lname">นามสกุล: </label>
+            <input type="text" name="lname-input" id="lname-input">
+        </p>
+
+        <p>
+            <label for="country" name="country" id="country">ประเทศ: </label>
+            <select name="country-list" id="country-list">
+                <option value="">เลือกประเทศ</option>
+                <option value="TH">ไทย</option>
+                <option value="VN">เวียดนาม</option>
+                <option value="LA">ลาว</option>
+                <option value="MY">มาเลเซีย</option>
+                <option value="SG">สิงคโปร์</option>
+                <option value="PH">ฟิลิปปินส์</option>
+                <option value="MM">เมียนมา</option>
+                <option value="KH">กัมพูชา</option>
+                <option value="BN">บรูไน</option>
+            </select>
+        </p>
+
+
+        </p>
+        <button type="button" name="button" id="button" onclick="langChange()">เปลี่ยนเป็นอังกฤษ</button>
+    </div>
+
+    <script>
+        let current = 0;
+
+        let fname = document.getElementById('fname');
+        let lname = document.getElementById('lname');
+        let country = document.getElementById('country');
+        let button = document.getElementById('button');
+
+        // let countryList = {
+        //     en: [
+        //         "Select a country", 
+        //         "Thailand", "Vietnam", "Laos", "Malaysia", "Singapore", 
+        //         "Philippines", "Myanmar", "Cambodia", "Brunei"
+        //     ],
+            
+        //     th: [
+        //         "เลือกประเทศ", 
+        //         "ไทย", "เวียดนาม", "ลาว", "มาเลเซีย", "สิงคโปร์", 
+        //         "ฟิลิปปินส์", "เมียนมา", "กัมพูชา", "บรูไน"
+        //     ]
+        // };
+
+        let en = [
+                "Select a country", 
+                "Thailand", "Vietnam", "Laos", "Malaysia", "Singapore", 
+                "Philippines", "Myanmar", "Cambodia", "Brunei"
+            ]
+
+        let th = [
+                "เลือกประเทศ", 
+                "ไทย", "เวียดนาม", "ลาว", "มาเลเซีย", "สิงคโปร์", 
+                "ฟิลิปปินส์", "เมียนมา", "กัมพูชา", "บรูไน"
+            ]
+        
+        function langChange() {
+            if (current == 0) {
+                fname.textContent = "First Name: ";
+                lname.textContent = "Last Name: ";
+                country.textContent = "Country: ";
+                button.textContent = "Change to Thai: ";
+
+                let countryListHTML = document.getElementById('country-list');
+                countryListHTML.innerHTML = "";
+
+                // for (let items of countryList["en"]) {
+                //     let option = document.createElement("option");
+                //     option.textContent = items;
+                //     countryListHTML.appendChild(option);
+                // }
+
+                en.forEach(element => {
+                    let option = document.createElement("option");
+                    option.textContent = element;
+                    countryListHTML.appendChild(option);
+                });
+
+                current = 1;
+
+            } else {
+                fname.textContent = "ชื่อ: ";
+                lname.textContent = "นามสกุล: ";
+                country.textContent = "ประเทศ: ";
+                button.textContent = "เปลี่ยนเป็นภาษาอังกฤษ: ";
+
+                let countryListHTML = document.getElementById('country-list');
+                countryListHTML.innerHTML = "";
+
+                // for (let items of countryList["th"]) {
+                //     let option = document.createElement("option");
+                //     option.textContent = items;
+                //     countryListHTML.appendChild(option);
+                // }
+                th.forEach(element => {
+                    let option = document.getElementById("option");
+                    option.textContent = element;
+                    countryListHTML.appendChild(option);
+                });
+
+                current = 0;
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
