@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+
+</head>
+
+<body>
+    <div id="div"></div>
+
+    <script>
+        function display(data) {
+            let div = document.getElementById("div");
+
+            data.forEach(object => {
+                object.laureates.forEach(object2 => {
+                    let p = document.createElement('p');
+
+                    p.textContent = `${object2.id}) ${object2.firstname} ${object2.surname} (${object.year}), ${object.category}, ${object2.motivation}`;
+                    div.appendChild(p);
+                })
+            });
+        }
+
+        fetch('nobleprize.json')
+            .then(response => response.json())
+            .then(data => display(data))
+            .catch(error => console.error('Error:', error));
+
+    </script>
+</body>
+
+</html>
