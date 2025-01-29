@@ -1,0 +1,56 @@
+/** nav ////////////////////////////////////// */
+.nav ul {
+    list-style-type: none;
+    background-color: #343f3d;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    display: flex; /* ใช้ flexbox เพื่อให้ทำงานกับ margin-left: auto */
+    align-items: center; /* จัดการแนวตั้งให้อยู่กึ่งกลาง */
+}
+
+
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+.nav a:hover {
+    /* opacity: 0.5;/ */
+    background-color: #256959;
+}
+
+.nav li {
+    margin: 0; /* ลบค่ามาร์จินที่อาจเกิน */
+}
+
+
+
+img {
+    height: 40vh;
+    width: auto;
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+button {
+    background-color: #41bb7c;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 10%;
+    color: aliceblue;
+}
