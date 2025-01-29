@@ -28,6 +28,8 @@ def dropWhile[T](seq: Seq[T], cond: T => Boolean): Seq[T] = seq match {
   val dropWhileResult = dropWhile(exampleList, (x: String) => x != "of")
   println(s"DropWhile Result : $dropWhileResult")
 
+  println("=======================")
+
 // /////////////////////////////////////////////////////////////////////////
   val list2 = Seq("Good", "Morning", "everyone")
 
@@ -37,9 +39,10 @@ def dropWhile[T](seq: Seq[T], cond: T => Boolean): Seq[T] = seq match {
   val drop2 = drop(list2, 2)
   println(s"Drop Result : $drop2")
 
-  val dropWhile2 = dropWhile(list2, (x: String) => x != "of")
+  val dropWhile2 = dropWhile(list2, (x: String) => x != "everyone")
   println(s"DropWhile Result : $dropWhile2")
 
+  println("=======================")
 // /////////////////////////////////////////////////////////////////////////
   val list3 = Seq("A", "B", "C", "D")
 
@@ -49,8 +52,9 @@ def dropWhile[T](seq: Seq[T], cond: T => Boolean): Seq[T] = seq match {
   val drop3 = drop(list3, 2)
   println(s"Drop Result : $drop3")
 
-  val dropWhile3 = dropWhile(list3, (x: String) => x != "of")
+  val dropWhile3 = dropWhile(list3, (x: String) => x != "C")
   println(s"DropWhile Result : $dropWhile3")
 
+  println("=======================")
 }
 
