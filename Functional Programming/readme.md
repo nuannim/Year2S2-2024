@@ -1,6 +1,6 @@
 # Functional Programming
 
-[](./my project/asg2/readme.md)
+[Link to asg2 README](./"my project"/asg2/readme.md)
 
 # สร้างโปรเจกใหม่ใน scala
 
