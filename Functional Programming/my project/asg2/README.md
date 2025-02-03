@@ -26,6 +26,8 @@ List("I","LOVE","Andaman", "of", "Thailand")
 
 ส่งเป็น รหัสนักศึกษา.docx ไฟล์เท่านั้น
 
+## code
+
 ### tail()
 
 ```scala
