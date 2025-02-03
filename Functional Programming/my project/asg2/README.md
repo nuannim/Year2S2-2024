@@ -1,6 +1,6 @@
 # Assignment 2 - Rubric: 1 criterion • 3 pts
 
-**Individual work**
+## Individual work
 
 Create the code for
 
