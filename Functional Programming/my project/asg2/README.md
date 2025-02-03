@@ -101,7 +101,9 @@ def dropWhile[T](seq: Seq[T], cond: T => Boolean): Seq[T] = seq match {
 ```
 
 <br>
+
 ---
+
 <br>
 
 ## sbt project compiled with Scala 3
