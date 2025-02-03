@@ -1,8 +1,4 @@
-# Assignment 2
-
-**Rubric: 1 criterion • 3 pts**
-
----
+# Assignment 2 - Rubric: 1 criterion • 3 pts
 
 **Individual work**
 
