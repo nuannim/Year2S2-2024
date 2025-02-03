@@ -29,7 +29,7 @@ List("I","LOVE","Andaman", "of", "Thailand")
 
 ส่งเป็น รหัสนักศึกษา.docx ไฟล์เท่านั้น
 
-## code
+## code v.1
 
 ### tail()
 
@@ -102,6 +102,22 @@ def dropWhile[T](seq: Seq[T], cond: T => Boolean): Seq[T] = seq match {
   println(s"DropWhile Result : $dropWhile3")
 
   println("=======================")
+}
+```
+
+## code v.2
+
+### tail()
+
+```scala
+def tail(mylist: Seq[?]): Any = {
+  var ls = mylist
+
+  if (mylist.length == 0) {
+    "empty list"
+  } else {
+    ls.slice(1, ls.length)
+  }
 }
 ```
 
