@@ -8,7 +8,10 @@ Create the code for
 
 **ยอมรับได้ match**
 
-- **case / recursive / .slice กรณี empty list ให้บอกว่า เป็น empty list** 1.Function Tail สำหรับลบ fist element ของ list ใดๆ **ห้ามใช้ .head และ .tai**l2.Function Drop สำหรับลบ fist N element ของ list ใดๆ **โดยเรียกใช้ Function อื่นด้ว**ย3. Function DropWhile สำหรับลบ element จาก list ใดๆ ตั้งแต่ fist element จนกระทั่งถึง element ที่ตรงตามเงื่อนไขที่กำหนด **โดยเรียกใช้ Function อื่นด้ว**ย
+- **case / recursive / .slice กรณี empty list ให้บอกว่า เป็น empty list**
+1. Function Tail สำหรับลบ fist element ของ list ใดๆ **ห้ามใช้ .head และ .tail**l
+2. Function Drop สำหรับลบ fist N element ของ list ใดๆ **โดยเรียกใช้ Function อื่นด้วย**
+3. Function DropWhile สำหรับลบ element จาก list ใดๆ ตั้งแต่ fist element จนกระทั่งถึง element ที่ตรงตามเงื่อนไขที่กำหนด **โดยเรียกใช้ Function อื่นด้วย**
 
 All functions requires at least 2 examples
 
