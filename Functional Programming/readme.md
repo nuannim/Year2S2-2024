@@ -1,5 +1,7 @@
 # Functional Programming
 
+[](Functional Programming/my project/asg2)
+
 # สร้างโปรเจกใหม่ใน scala
 
 เริ่มโปรเจกใหม่
