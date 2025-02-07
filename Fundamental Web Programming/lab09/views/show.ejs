@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>hellofjeofejofejpofewafewa</h1>
+    <!-- สร้างตารางสำหรับแสดงข้อมูล -->
+
+
+        <!-- <table></table> -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>name</th>
+                    <th>dept_name</th>
+                    <th>salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% data.forEach((item)=>{ %>
+                <tr>
+                    <td><%=item.ID%></td>
+                    <td><%=item.name%></td>
+                    <td><%=item.dept_name%></td>
+                    <td><%=item.salary%></td>
+                </tr>
+                <% }); %>
+                <!-- <tr>
+                    <td>ข้อมูล 4</td>
+                    <td>ข้อมูล 5</td>
+                    <td>ข้อมูล 6</td>
+                </tr> -->
+            </tbody>
+        </table>
+            <!-- <br> -->
+
+
+</body>
+
+</html>
