@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>email</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach((item)=>{ %>
+                <form action="/datashow" method="GET">
+                <tr>
+                    <td>
+                        <input name="id" value="<%=item.id%>" type="hidden">
+                        <%=item.id%>
+                    </td>
+                    <td>
+                        <input name="first_name" value="<%=item.first_name%>" type="hidden">
+                        <%=item.first_name%>
+                    </td>
+                    <td>
+                        <input name="last_name" value="<%=item.first_name%>" type="hidden">
+                        <%=item.last_name%>
+                    </td>
+                    <td>
+                        <input name="username" value="<%=item.username%>" type="hidden">
+                        <%=item.username%>
+                    </td>
+                    <td>
+                        <input name="email" value="<%=item.email%>" type="hidden">
+                        <%=item.email%>
+                    </td>
+                    <td>
+                        <input type="submit" value="<%item%>">
+                        <!-- <a href=""></a> -->
+                    </td>
+                </tr>
+            </form>
+
+                <% }); %>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
