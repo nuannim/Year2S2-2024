@@ -1,0 +1,14 @@
+[
+    {
+        "BizID": 1,
+        "firstName": "Ken",
+        "lastName": "Sasuke",
+        "MiddleName": "Love"
+    },
+    {
+        "BizID": 2,
+        "firstName": "Sara",
+        "lastName": "Naruto",
+        "MiddleName": "J"
+    }
+]
