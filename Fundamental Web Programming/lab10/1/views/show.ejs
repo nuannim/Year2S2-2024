@@ -21,31 +21,26 @@
         </thead>
         <tbody>
             <% data.forEach((item)=>{ %>
-                <form action="/datashow" method="GET">
+                <form action="/datashow/<%= item.id %>" method="GET">
                 <tr>
                     <td>
-                        <input name="id" value="<%=item.id%>" type="hidden">
                         <%=item.id%>
                     </td>
                     <td>
-                        <input name="first_name" value="<%=item.first_name%>" type="hidden">
                         <%=item.first_name%>
                     </td>
                     <td>
-                        <input name="last_name" value="<%=item.first_name%>" type="hidden">
                         <%=item.last_name%>
                     </td>
                     <td>
-                        <input name="username" value="<%=item.username%>" type="hidden">
                         <%=item.username%>
                     </td>
                     <td>
-                        <input name="email" value="<%=item.email%>" type="hidden">
                         <%=item.email%>
                     </td>
                     <td>
-                        <input type="submit" value="<%item%>">
-                        <!-- <a href=""></a> -->
+                        <!-- <input type="submit"> -->
+                         <button>show data</button>
                     </td>
                 </tr>
             </form>

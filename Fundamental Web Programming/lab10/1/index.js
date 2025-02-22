@@ -51,7 +51,7 @@ app.get('/create', function (req, res) {
    });
 })
 
-app.get('/show', function (req, res) {
+app.get('/', function (req, res) {
     const query = 'SELECT * FROM users ';
     db.all(query, (err, rows) => {
       if (err) {
@@ -75,19 +75,20 @@ app.get('/delete', function (req, res) {
     });
   });
 
-app.get('/datashow', function (req, res) {
-    let formdata = {
-        id: req.query.id,
-        fname: req.query.first_name
-    };
+app.get('/datashow/:id', function (req, res) {
+    // let formdata = {
+    //     id: req.query.id,
+    //     fname: req.query.first_name
+    // };
     // let formdata = req.query.id
 
-    console.log("formdata: "+formdata.id);  
-    //
-    let sql = `select * from users where id = ${formdata.id}`;
+    // console.log("formdata: "+formdata.id);  
+
+    const id = req.params.id;
+    let sql = `select * from users where id = ?`;
     // console.log(sql);
     // const query = 'SELECT * FROM users ';
-    db.all(sql, (err, rows) => {
+    db.get(sql, [id], (err, rows) => {
       if (err) {
         console.log("err:"+err.message);
       }
