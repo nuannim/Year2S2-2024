@@ -1,0 +1,66 @@
+[
+    {
+        "ClubID": 101,
+        "ClubName": "IT",
+        "EntranceFee": 120,
+        "Student": [
+            {
+                "StudentID": "S05",
+                "StudentName": "John"
+            },
+            {
+                "StudentID": "S03",
+                "StudentName": "Antony"
+            }
+        ]
+    },
+    {
+        "ClubID": 102,
+        "ClubName": "Volunteer",
+        "EntranceFee": 0,
+        "Student": [
+            {
+                "StudentID": "S03",
+                "StudentName": "Antony"
+            }
+        ]
+    },
+    {
+        "ClubID": 103,
+        "ClubName": "China",
+        "EntranceFee": 100,
+        "Student": [
+            {
+                "StudentID": "S05",
+                "StudentName": "John"
+            },
+            {
+                "StudentID": "S03",
+                "StudentName": "Antony"
+            },
+            {
+                "StudentID": "S07",
+                "StudentName": "Black"
+            }
+        ]
+    },
+    {
+        "ClubID": 104,
+        "ClubName": "Japan",
+        "EntranceFee": 500,
+        "Student": [
+            {
+                "StudentID": "S05",
+                "StudentName": "John"
+            },
+            {
+                "StudentID": "S03",
+                "StudentName": "Antony"
+            },
+            {
+                "StudentID": "S01",
+                "StudentName": "Sara"
+            }
+        ]
+    }
+]

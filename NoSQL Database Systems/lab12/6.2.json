@@ -1,0 +1,78 @@
+{
+    "client": [
+        {
+            "Client": "c76",
+            "Client Name": "Noppadon"
+        },
+        {
+            "Client": "c56",
+            "Client Name": "Thana"
+        }
+    ],
+    "owner": [
+        {
+            "owner_no": "C40",
+            "owner_name": "Aye Mi"
+        },
+        {
+            "owner_no": "C93",
+            "owner_name": "Somchai"
+        },
+        {
+            "owner_no": "C16",
+            "owner_name": "Takashi"
+        }
+    ],
+    "propperty": [
+        {
+            "prop_no": "104",
+            "Address": {
+                "city": "Being",
+                "country": "China"
+            },
+            "rent": 32000,
+            "client_id": "C76",
+            "owner_no": "C40"
+        },
+        {
+            "prop_no": "160",
+            "Address": {
+                "city": "Bangkok",
+                "country": "Thailand"
+            },
+            "rent": 22000,
+            "client_id": "C76",
+            "owner_no": "C93"
+        },
+        {
+            "prop_no": "160",
+            "Address": {
+                "city": "Osaka",
+                "country": "Japan"
+            },
+            "rent": 40000,
+            "client_id": "C56",
+            "owner_no": "C16"
+        },
+        {
+            "prop_no": "128",
+            "Address": {
+                "city": "Bangkok",
+                "country": "Thailand"
+            },
+            "rent": 18000,
+            "client_id": "C56",
+            "owner_no": "C93"
+        },
+        {
+            "prop_no": "255",
+            "Address": {
+                "city": "Phuket",
+                "country": "Thailand"
+            },
+            "rent": 23500,
+            "client_id": "C56",
+            "owner_no": "C93"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+
+[
+    {
+        "ClientID":"C76",
+        "ClientName" : "Noppadon",
+        "prop":[
+            {
+                "PropertyNo":"104",
+                "Address":{
+                    "city":"Being",
+                    "country":"China"
+                },
+                "rent":32000,
+                "owner":{
+                    "OwnerNo":"C40",
+                    "OwnerName":"Aye Mi"
+                }
+
+            },
+            {
+                "PropertyNo":"160",
+                "Address":{
+                    "city":"Osaka",
+                    "country":"Japan"
+                },
+                "rent":22000,
+                "owner":{
+                    "OwnerNo":"C93",
+                    "OwnerName":"Somchai"
+                }
+
+            }
+        ]
+    },
+    {
+        "ClientID":"C56",
+        "ClientName" : "Thana",
+        "prop":[
+            {
+                "PropertyNo":"160",
+                "Address":{
+                    "city":"Bangkok",
+                    "country":"Thailand"
+                },
+                "rent":40000,
+                "owner":{
+                    "OwnerNo":"C16",
+                    "OwnerName":"Takashi"
+                }
+
+            },
+            {
+                "PropertyNo":"128",
+                "Address":{
+                    "city":"Bangkok",
+                    "country":"Thailand"
+                },
+                "rent":18000,
+                "owner":{
+                    "OwnerNo":"C93",
+                    "OwnerName":"Somchai"
+                }
+            },
+            {
+                "PropertyNo":"255",
+                "Address":{
+                    "city":"Phuket",
+                    "country":"Thailand"
+                },
+                "rent":23500,
+                "owner":{
+                    "OwnerNo":"C93",
+                    "OwnerName":"Somchai"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+{
+    "Sales": [
+        {
+            "InvoiceID": "V001",
+            "ProductID": "P001",
+            "Quantity": 2
+        },
+        {
+            "InvoiceID": "V001",
+            "ProductID": "P003",
+            "Quantity": 1
+        },
+        {
+            "InvoiceID": "V002",
+            "ProductID": "P002",
+            "Quantity": 2
+        },
+        {
+            "InvoiceID": "V003",
+            "ProductID": "P001",
+            "Quantity": 1
+        },
+        {
+            "InvoiceID": "V003",
+            "ProductID": "P002",
+            "Quantity": 1
+        },
+        {
+            "InvoiceID": "V003",
+            "ProductID": "P004",
+            "Quantity": 1
+        },
+        {
+            "InvoiceID": "V004",
+            "ProductID": "P002",
+            "Quantity": 2
+        },
+        {
+            "InvoiceID": "V004",
+            "ProductID": "P004",
+            "Quantity": 1
+        }
+    ],
+    "Products": [
+        {
+            "ProductID": "P001",
+            "ProductName": "iPhone",
+            "Brand": "Apple",
+            "Price": 45000
+        },
+        {
+            "ProductID": "P002",
+            "ProductName": "Surface Pro",
+            "Brand": "Microsoft",
+            "Price": 38000
+        },
+        {
+            "ProductID": "P003",
+            "ProductName": "iPad",
+            "Brand": "Apple",
+            "Price": 22000
+        },
+        {
+            "ProductID": "P004",
+            "ProductName": "Galaxy Tab",
+            "Brand": "Samsung",
+            "Price": 12000
+        }
+    ],
+    "Invoices": [
+        {
+            "InvoiceID": "V001",
+            "Date": "20/05/62",
+            "CustomerID": "C40"
+        },
+        {
+            "InvoiceID": "V002",
+            "Date": "12/11/62",
+            "CustomerID": "C16"
+        },
+        {
+            "InvoiceID": "V003",
+            "Date": "09/09/60",
+            "CustomerID": "C93"
+        },
+        {
+            "InvoiceID": "V004",
+            "Date": "17/08/61",
+            "CustomerID": "C56"
+        }
+    ],
+    "Customers": [
+        {
+            "CustomerID": "C40",
+            "Name": "Aye Mi",
+            "Tel": "+6693-908-5236",
+            "Address": {
+                "HouseID": 567,
+                "Road": "Asia",
+                "City": "Phuket"
+            }
+        },
+        {
+            "CustomerID": "C16",
+            "Name": "Takashi",
+            "Tel": "+6671-101-3758",
+            "Address": {
+                "HouseID": 482,
+                "Road": "Rama IV",
+                "City": "Bangkok"
+            }
+        },
+        {
+            "CustomerID": "C93",
+            "Name": "Somchai",
+            "Tel": "+6694-994-3456",
+            "Address": {
+                "HouseID": 12,
+                "Road": "Rama IX",
+                "City": "Bangkok"
+            }
+        },
+        {
+            "CustomerID": "C56",
+            "Name": "Thana",
+            "Tel": "+6677-434-9761",
+            "Address": {
+                "HouseID": 567,
+                "Road": "Asia",
+                "City": "Phuket"
+            }
+        }
+    ]
+}

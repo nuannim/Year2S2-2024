@@ -1,0 +1,38 @@
+[
+    {
+        "breed": "rottweiler",
+        "size": [
+            "Middie",
+            "Large"
+        ],
+        "color": [
+            "Black",
+            "Blacker"
+        ],
+        "price": 3600
+    },
+    {
+        "breed": "shiba",
+        "size": [
+            "Small",
+            "Middie",
+            "Large"
+        ],
+        "color": [
+            "White",
+            "Brown"
+        ],
+        "price": 8900
+    },
+    {
+        "breed": "beagle",
+        "size": [
+            "Small"
+        ],
+        "color": [
+            "Brown",
+            "Black"
+        ],
+        "price": 5400
+    }
+]
