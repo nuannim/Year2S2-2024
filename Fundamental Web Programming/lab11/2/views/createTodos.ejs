@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab11-2</title>
+
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        button {
+            background-color: lightgreen;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/createTodos" method="post">
+        <h1>Create a New Todo</h1>
+
+        <h3>Titles:</h3>
+        <input type="text" placeholder="Enter title" style="width: 30%;" name="title">
+
+        <br>
+
+        <h3>Description:</h3>
+        <textarea placeholder="Enter Description" style="width: 30%;" name="description"></textarea>
+
+        <br>
+        <h3>Deadlines:</h3>
+        <input type="date" style="width: 30%;" name="deadline">
+
+        <br>
+        <button type="submit">Create Todo</button>
+    </form>
+</body>
+
+</html>

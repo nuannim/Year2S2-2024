@@ -10,6 +10,13 @@ const conn = require('./dbconn.js');
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
+const bodyParser = require('body-parser');
+
+// ใช้ body-parser เพื่อให้สามารถอ่านค่าจากฟอร์มได้
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, "/public/form.html"));
 });

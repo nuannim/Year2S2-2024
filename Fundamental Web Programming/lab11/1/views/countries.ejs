@@ -7,28 +7,41 @@
 
     <style>
         div {
-            margin: 10%;
+            margin: 10px;
+        }
+        
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 80%;
         }
 
     </style>
 </head>
 
 <body>
-    <h1>List of Countries</h1>
+    <div>
+        <h1>List of Countries</h1>
+    </div>
+
+    <div class="wrap">
 
     <% data.forEach((item)=>{ %>
 
         <div>
-            <img src="http://10.0.15.21:8000/<%=item.flag%>" alt="flag">
+            <img src="http://10.0.15.21:8000/<%=item.flag%>" alt="flag" style="width: 200px;">
             <h3><%=item.name%></h3> 
             <p>Capital: <%=item.capital%></p> 
             <p>Population: <%=item.population%></p>
             <p>Region: <%=item.region%></p> 
             <p>latlng: <%=item.latlng%></p>
-            <p>borders: <%=item.borders%></p>
+            <p>borders: <%=item.cioc%></p>
         </div>
 
     <% }); %>
+</div>
+
 </body>
 
 </html>
