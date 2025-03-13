@@ -9,7 +9,11 @@ https://itexamanswers.net/question/what-principle-prevents-the-disclosure-of-inf
 https://itexamanswers.net/checkpoint-exam-principles-practices-and-processes-of-network-defense-answers.html
 
 # Checkpoint Exam: Firewalls, Cryptography, and Cloud Security
-https://itexamanswers.net/checkpoint-exam-firewalls-cryptography-and-cloud-security-answers.html
+https://itexamanswers.net/checkpoint-exam-firewalls-cryptography-and-cloud-security-answers.html  
+https://itexamanswers.net/question/refer-to-the-exhibit-a-router-has-an-existing-acl-that-permits-all-traffic-from-the-172-16-0-0-network-the-administrator-attempts-to-add-a-new-ace-to-the-acl-that-denies-packets-from-host-172-16-0-1  
+https://itexamanswers.net/question/what-is-the-first-step-in-configuring-a-cisco-ios-zone-based-policy-firewall-via-the-cli  
+https://itexamanswers.net/question/what-are-two-properties-of-a-cryptographic-hash-function-choose-two
 
-
+# Checkpoint Exam: Evaluating Security Alerts
+https://itexamanswers.net/checkpoint-exam-evaluating-security-alerts-answers.html
 
