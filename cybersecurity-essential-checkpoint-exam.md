@@ -17,3 +17,4 @@
 # Checkpoint Exam: Evaluating Security Alerts
 - https://itexamanswers.net/checkpoint-exam-evaluating-security-alerts-answers.html
 
+# Checkpoint Exam: Vulnerability Assessment and Risk Management
