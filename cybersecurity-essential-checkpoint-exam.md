@@ -1,3 +1,5 @@
+# Checkpoint Exam: Network Security
+https://itexamanswers.net/network-security-checkpoint-exam-answers.html  
 
 # Checkpoint Exam: OS and Endpoint Security
 https://itexamanswers.net/os-and-endpoint-security-checkpoint-exam-answers.html  
