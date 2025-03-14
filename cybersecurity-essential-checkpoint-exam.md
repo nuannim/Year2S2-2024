@@ -19,3 +19,7 @@
 
 # Checkpoint Exam: Vulnerability Assessment and Risk Management
 - https://itexamanswers.net/checkpoint-exam-vulnerability-assessment-and-risk-management-answers.html
+
+
+# Checkpoint Exam: Incident Response
+- https://itexamanswers.net/checkpoint-exam-incident-response-answers.html
