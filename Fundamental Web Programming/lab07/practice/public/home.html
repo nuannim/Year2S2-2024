@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello World!</title>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #333;
+      padding: 15px;
+    }
+
+    .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .nav-container {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .nav-left,
+    .nav-right {
+      list-style: none;
+      display: flex;
+      padding: 0;
+    }
+
+    .nav-left {
+      margin-right: auto;
+    }
+
+    .nav-right {
+      margin-left: auto;
+    }
+
+    .nav-left li,
+    .nav-right li {
+      margin: 0 10px;
+    }
+
+    .nav-left a,
+    .nav-right a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Mobile Menu */
+    .menu-toggle {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <!-- <div class="logo">MyLogo</div> -->
+      <div class="nav-container">
+        <ul class="nav-left">
+          <li><a href="/">Home</a></li>
+          <li><a href="/cats">Cats</a></li>
+          <li><a href="/dogs">Dogs</a></li>
+          <li><a href="/bird">Birds</a></li>
+        </ul>
+        <ul class="nav-right">
+          <div style="background-color: green; padding: 10px 20px;">
+            <li><a href="/about">About</a></li>
+          </div>
+        </ul>
+      </div>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <img src="/img/panda-logo.png" width="500" alt="Hello Panda Web Programming">
+  </header>
+  <!-- <p>Hello Panda Web Programming. Check out the <a href="/about">"About"</a> page for more information.</p> -->
+</body>
+
+</html>
