@@ -1,0 +1,23 @@
+ใช้ localhost:3000/days
+localhost:3000/days/1
+
+{ 
+  "id": 1,
+  "day": "Monday",
+  "colors": "White",
+  "description": "Love🥸🥸🥸🥸🥸"
+}
+
+{
+  "id": 2,
+  "day": "Tuesday",
+  "colors": "Black",
+  "description": "Lucky🥸🥸🥸🥸🥸"
+}
+
+{
+  "id": 3,
+  "day": "Wednesday",
+  "colors": "Yellow",
+  "description": "Money🥸🥸🥸🥸🥸"
+}

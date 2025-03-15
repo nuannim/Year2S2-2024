@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ye</h1>
+    <form action="/" method="post">
+        <p>Employee ID:</p>
+        <input type="text" name="customerId" id="customerId">
+
+        <p>Firstname:</p>
+        <input type="text" name="firstName" id="firstName">
+        
+        <p>Lastname:</p>
+        <input type="text" name="lastName" id="lastName">
+        
+        <p>Address:</p>
+        <!-- <input type="text" name="address" id="address"> -->
+        <textarea name="address" id="address"></textarea>
+        
+        <p>Email:</p>
+        <input type="text" name="email" id="email">
+        
+        <p>Phone:</p>
+        <input type="text" name="phone" id="phone">
+        
+        <button type="submit">save data</button>
+    </form>
+
+    <script>
+        function getdata() {
+            if (sessionStorage.getItem("formSubmitted")) {
+                sessionStorage.removeItem("formSubmitted"); // ล้างค่า sessionStorage
+                return; // หยุดการทำงานของ getdata() ในครั้งนี้
+            }
+
+            fetch('/getdata')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("customerId").value = data.CustomerId || "";
+                    document.getElementById("firstName").value = data.FirstName || "";
+                    document.getElementById("lastName").value = data.LastName || "";
+                    document.getElementById("address").value = data.Address || "";
+                    document.getElementById("email").value = data.Email || "";
+                    document.getElementById("phone").value = data.Phone || "";
+                    // document.getElementById("phone").value = data.;
+                })
+                .catch(error => console.error("error fetching", error))
+        }
+
+        getdata();
+    </script>
+</body>
+</html>

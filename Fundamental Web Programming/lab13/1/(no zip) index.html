@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 13/2</title>
+</head>
+
+<body>
+    <form action="/saveData" method="post">
+        <h2>Employee Information</h2>
+        <!-- <label for="employeeID">Employee ID:</label> -->
+        <p id="employeeID" name="employeeID"></p>
+        <input type="text" id="employeeID" name="employeeID" required>
+        <br>
+        <!-- <label for="firstname">Firstname:</label> -->
+        <p id="firstname" name="firstname"></p>
+        <input type="text" id="firstname" name="firstname" required>
+        <br>
+        <!-- <label for="lastname">Lastname:</label> -->
+        <p id="employeeID" name="employeeID"></p>
+        <input type="text" id="lastname" name="lastname" required>
+        <br>
+        <!-- <label for="address">Address:</label> -->
+        <textarea name="address" id="address" required></textarea>
+        <br>
+        <!-- <label for="email">Email:</label> -->
+        <input type="text" id="email" name="email" required>
+        <br>
+        <!-- <label for="phone">Phone:</label> -->
+        <input type="text" id="phone" name="phone" required>
+        <br>
+        <button type="submit">Save Data</button>
+        <button type="button"><a href="/showData">Show Data</a></button>
+        <button type="button"><a href="/clearData">Clear Data</a></button>
+    </form>
+</body>
+
+</html>
