@@ -3,7 +3,7 @@
 - [all checkpoint exam answer](cybersecurity-essential-checkpoint-exam.md)  
 - **รวม quiz cisco แปลไทย จากนายพีท**: https://docs.google.com/forms/d/1LuwyUtHr7IyZpTQegr-dh13ggBvu4uY480y2ZNnRz9Y/viewform?fbclid=IwY2xjawJA2ZtleHRuA2FlbQIxMQABHXP4WCczurLwK3KrQMJKHiYejq5RagqOn1SFQSYjZR_oYdY6UJ5Bpba2hQ_aem_ya39-wV_v6chZq2ABnViTw&edit_requested=true  
 
-## แนวข้อสอบ CF
+## แนวข้อสอบ COOS
 **น่าจะจารย์สุเมธ**
 - เติมคำ เป็นเลือก ๆ ถูกทุกอันจะให้คะแนน
 - bonus สำฟรับคนเสร็จเร็ว ก่อน 90นาทีแรก จะได้ password ตอนสุดท้ายเพื่อไปเอาคะแนนโบนัส 3 คะแนน  
