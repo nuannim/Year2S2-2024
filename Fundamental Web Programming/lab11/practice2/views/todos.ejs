@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* form .d, .d {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } */
+        input {
+            width: 100vh;
+        }
+
+        .d {
+            /* border: solid 2px; */
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        div {
+            margin-top: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: solid;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="d">
+        <form action="/submit" method="post">
+
+            <h1>user form</h1>
+            <label for="id">id</label>
+            <br>
+            <input type="number" name="id" id="id">
+            <br>
+            <br>
+
+            <label for="first">first name</label>
+            <br>
+            <input type="text" name="first" id="first">
+            <br>
+            <br>
+
+            <label for="last">last name</label>
+            <br>
+            <input type="text" name="last" id="last">
+            <br>
+            <br>
+
+            <!-- <button>submit</button>
+            <a href="/update">
+                <button type="button">update</button>
+            </a>
+            <a href="/delete">
+                <button type="button">delete</button>
+            </a> -->
+
+            <button name="button" value="submit">submit</button>
+            <button name="button" value="update">update</button>
+            <button name="button" value="delete">delete</button>
+        </form>
+
+    </div>
+    <div class="d">
+        <h1>user data</h1>
+        <table>
+            <thead>
+                <tr style="background-color: gray;">
+                    <th style="width: 100px;">ID</th>
+                    <th style="width: 100px;">first name</th>
+                    <th style="width: 100px;">last name</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <% data.forEach(element => { %>
+                        <tr>
+                            <td>
+                                
+                                <button onclick="fillform('<%= element.id %>', '<%= element.firstname %>', '<%= element.lastname %>')"><%= element.id %></button>
+                            </td>
+                            <td>
+                                <%= element.firstname %>
+                            </td>
+                            <td>
+                                <%= element.lastname %>
+                            </td>
+                        </tr>
+
+                    <% }); %>
+
+            </tbody>
+        </table>
+    </div>
+
+    <h1><%= data %></h1>
+</body>
+<script>
+    function fillform(id, firstname, lastname) {
+        document.getElementById('id').value = id;
+        document.getElementById('first').value = firstname;
+        document.getElementById('last').value = lastname;
+    }
+</script>
+
+</html>
