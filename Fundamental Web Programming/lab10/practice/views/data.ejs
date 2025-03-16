@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice lab 10-2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style></style> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>questions</h1>
+
+    <form action="/check" method="post">
+        <div>
+            <% data.forEach(element=> { %>
+                <div>
+                    <h3>
+                        <%= element.QID %>.
+                            <%= element.Stem %>
+                    </h3>
+                    <input type="radio" name="<%= element.QID %>" id="<%= element.Alt_A %>" value="A" required>
+                    <label for="<%= element.Alt_A %>">
+                        <%= element.Alt_A %>
+                    </label>
+
+                    <br>
+
+                    <input type="radio" name="<%= element.QID %>" id="<%= element.Alt_B %>" value="B" required>
+                    <label for="<%= element.Alt_B %>">
+                        <%= element.Alt_B %>
+                    </label>
+
+                    <br>
+
+                    <input type="radio" name="<%= element.QID %>" id="<%= element.Alt_C %>" value="C" required>
+                    <label for="<%= element.Alt_C %>">
+                        <%= element.Alt_C %>
+                    </label>
+
+                    <br>
+
+                    <input type="radio" name="<%= element.QID %>" id="<%= element.Alt_D %>" value="D" required>
+                    <label for="<%= element.Alt_D %>">
+                        <%= element.Alt_D %>
+                    </label>
+                </div>
+                <% }); %>
+        </div>
+        <button>submit</button>
+    </form>
+
+</body>
+
+</html>
