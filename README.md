@@ -11,14 +11,15 @@
 - bonus สำฟรับคนเสร็จเร็ว ก่อน 90นาทีแรก จะได้ password ตอนสุดท้ายเพื่อไปเอาคะแนนโบนัส 3 คะแนน  
 (25+3คะแนน)
 - โบนัสจะให้ทำอีกครึ่งชม
-- https://infraexam.com/lpi/linux-essentials-2-21/midterm-m2-9-exam/
+- **linux essential all answer:** https://infraexam.com/lpi/linux-essentials-2-21/midterm-m2-9-exam/
+- **mock from linux essential จากนายแมน (สอบเสร็จละ แทบไม่มีในข้อสอบเลยเอางี้):** https://docs.google.com/forms/d/e/1FAIpQLSfOWMvKmY05MuHRCFy2jeljvrs6bsa-CRhdicQnCTXo4l-o8w/viewform & https://docs.google.com/forms/d/e/1FAIpQLSdZcrNZDkQR6pBlFGHj5-y0DnzhvJMn5kGXo_JmWqGiORG_4w/viewform
 
 **อาจารย์ประพันธ์**
 - ตอนแรกที่เคยบอกว่าจะเป็น 60 ข้อ ดึง15ข้อไปทำป็นวิธีทำ
 - เปลี่ยนเป็นช้อย 75 ข้อ แล้วก็มี bonusเป็นวิธีทำ 3 คะแนน
 - เกี่ยวกับ docker ไม่มีคำสั่งให้ ต้องจำเอง (แต่เขาบอก ปกติพิมพ์ docker ใน cmd แล้วจะมีคำสั่งขึ้นมา (docker/ docker run --help ไรงี้) ถ้าใช้ docker desktop ให้กดดู container แล้วอะไรต่อไม่รู้ ฟังไม่ทัน คือไม่รู้บอกทำไม ไหนบอกไม่มีคำสั่งให้ดู หรือจริง ๆ ให้เปิด cmd ดูได้ก็ไม่รู้)  
 = 56 คะแนน
-- **mock from linux essential จากนายแมน (สอบเสร็จละ แทบไม่มีในข้อสอบเลยเอางี้):** https://docs.google.com/forms/d/e/1FAIpQLSfOWMvKmY05MuHRCFy2jeljvrs6bsa-CRhdicQnCTXo4l-o8w/viewform & https://docs.google.com/forms/d/e/1FAIpQLSdZcrNZDkQR6pBlFGHj5-y0DnzhvJMn5kGXo_JmWqGiORG_4w/viewform
+
 
 
 ## SE
