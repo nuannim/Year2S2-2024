@@ -32,3 +32,5 @@
 ### notion ของดิฉัน
 - https://tender-engineer-ace.notion.site/Software-Engineering-SE-1b7d31a96d618040b856fc7afa14ad3a
   
+## fwp
+- **ติว final fwp: ** https://youtu.be/RH1d1fam-pw?si=01aeIbG0tSEn-xBC
