@@ -28,6 +28,7 @@
   - วิเคราะห์ 
   - คำนวณ
   - ฝน กระดาษคำตอบ
+- ** SE Mock ของใครก็ไม่รู้ มีคนส่งมา: **https://docs.google.com/forms/d/e/1FAIpQLSdkbTHMiuwe8BT7lA1Ifod7y6sTDRCnsMxaf-IvRnAHop-JeA/viewform
 
 ### notion ของดิฉัน
 - https://tender-engineer-ace.notion.site/Software-Engineering-SE-1b7d31a96d618040b856fc7afa14ad3a
