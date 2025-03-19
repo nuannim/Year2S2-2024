@@ -2,6 +2,8 @@
 ## cybersecurity fundamental 
 - [all checkpoint exam answer](cybersecurity-essential-checkpoint-exam.md)  
 - **รวม quiz cisco แปลไทย จากนายพีท**: https://docs.google.com/forms/d/1LuwyUtHr7IyZpTQegr-dh13ggBvu4uY480y2ZNnRz9Y/viewform?fbclid=IwY2xjawJA2ZtleHRuA2FlbQIxMQABHXP4WCczurLwK3KrQMJKHiYejq5RagqOn1SFQSYjZR_oYdY6UJ5Bpba2hQ_aem_ya39-wV_v6chZq2ABnViTw&edit_requested=true  
+- https://docs.google.com/forms/d/e/1FAIpQLScEpC7bTX4wUnEFtahdQxmYH_Cq2uWDrbPKeZljV35sqo1zVA/viewform
+
 
 ## COOS
 
@@ -21,7 +23,6 @@
 = 56 คะแนน
 
 
-
 ## SE
 
 ### แนวข้อสอบ final
@@ -34,6 +35,7 @@
 
 ### notion ของดิฉัน
 - https://tender-engineer-ace.notion.site/Software-Engineering-SE-1b7d31a96d618040b856fc7afa14ad3a
-  
+
+
 ## fwp
 - **ติว final fwp:** https://youtu.be/RH1d1fam-pw?si=01aeIbG0tSEn-xBC
