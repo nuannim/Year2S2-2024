@@ -11,6 +11,8 @@
 - https://docs.google.com/forms/d/e/1FAIpQLScEpC7bTX4wUnEFtahdQxmYH_Cq2uWDrbPKeZljV35sqo1zVA/viewform
 - **answer version:** https://docs.google.com/forms/d/e/1FAIpQLScEpC7bTX4wUnEFtahdQxmYH_Cq2uWDrbPKeZljV35sqo1zVA/viewscore?viewscore=AE0zAgA04tNP3mr6KZC6lZEZpSze3YNa3hA21mOGA6HATLuQO2bjWSGmxAYzoyPu4J1rfUY
 
+**notion ของดิฉัน (ไม่ค่อยครบเท่าไหร่ อ่านของคนอื่นเถอะ)**
+- https://tender-engineer-ace.notion.site/cybersecurity-1bbd31a96d6180a989eeca919191708e
 
 ## COOS
 
