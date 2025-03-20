@@ -2,3 +2,14 @@
 
 - https://itexamanswers.net/question/a-soho-office-is-using-a-public-cloud-provider-to-host-their-website-the-it-technician-is-choosing-an-approach-to-protect-transaction-data-between-the-website-and-visitors-from-the-internet-which-ty
 - https://itexamanswers.net/question/the-manager-of-a-new-data-center-requisitions-magnetic-door-locks-the-locks-will-require-employees-to-swipe-an-id-card-to-open-which-type-of-security-control-is-being-implemented
+- https://itexamanswers.net/question/a-company-is-developing-security-policies-which-security-policy-would-address-the-rules-that-determine-access-to-and-use-of-network-resources-and-define-the-consequences-of-policy-violations
+- https://itexamanswers.net/question/which-security-organization-maintains-a-list-of-common-vulnerabilities-and-exposures-cve-and-is-used-by-prominent-security-organizations
+- https://itexamanswers.net/question/as-a-cybersecurity-analyst-it-is-very-important-to-keep-current-it-was-suggested-by-some-colleagues-that-newsbites-contains-many-good-current-articles-to-read-what-network-security-organization-mai
+- https://itexamanswers.net/question/match-the-command-line-tool-with-its-description#google_vignette
+- https://studyx.ai/questions/4lip9jj/why-is-it-important-to-conduct-server-profiling-on-live-networks-to-detect-worm-activity
+- https://itexamanswers.net/question/what-kind-of-attack-is-performed-by-a-threat-actor-that-places-non-dns-traffic-in-dns-records
+- https://itexamanswers.net/question/which-statement-describes-a-characteristic-on-wlans
+- https://itexamanswers.net/question/a-student-is-learning-about-authentication-protocols-and-how-they-are-used-to-communicate-with-aaa-servers-which-statement-describes-a-characteristic-of-such-protocols
+- https://itexamanswers.net/question/which-file-system-is-for-mac-os-x-computers-and-windows-users-may-use-third-party-software-to-open-and-save-files-from-this-file-system
+- https://studyx.ai/questions/4ljs7v9/question-53-what-is-the-need-for-data-integrity-in-forums-and-personal-pages-on-social
+- https://www.assignmenthelp.net/qa/answer/a-network-security-engineer-is-examining-the-zone-based-policy/65e6acdd264e8846a119e93d
