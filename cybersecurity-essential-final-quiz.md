@@ -17,3 +17,17 @@
 - https://itexamanswers.net/question/which-two-advantages-in-security-controls-are-provided-by-software-defined-networks-sdn-over-traditional-network-security-solutions-choose-two
 - https://itexamanswers.net/question/what-are-two-recommended-steps-to-protect-and-secure-a-wireless-network-choose-two#google_vignette
 - https://itexamanswers.net/question/after-host-a-receives-a-web-page-from-server-b-host-a-terminates-the-connection-with-server-b-match-each-step-to-its-correct-option-in-the-normal-termination-process-for-a-tcp-connection-not-all-o
+- https://itexamanswers.net/question/a-network-administrator-is-setting-up-a-web-server-for-a-small-advertising-office-and-is-concerned-with-data-availability-the-administrator-wishes-to-implement-disk-fault-tolerance-using-the-minimum
+- https://itexamanswers.net/question/a-flood-of-packets-with-invalid-source-ip-addresses-requests-a-connection-on-the-network-the-server-busily-tries-to-respond-resulting-in-valid-requests-being-ignored-what-type-of-attack-has-occurre
+- https://itexamanswers.net/question/which-term-describes-the-ability-of-a-web-server-to-keep-a-log-of-the-users-who-access-the-server-as-well-as-the-length-of-time-they-use-it
+- https://itexamanswers.net/question/when-acls-are-configured-to-block-ip-address-spoofing-and-dos-flood-attacks-which-icmp-message-should-be-allowed-both-inbound-and-outbound
+- https://itexamanswers.net/question/what-is-a-feature-of-distributed-firewalls
+- https://itexamanswers.net/question/match-the-security-policy-with-the-description-not-all-options-are-used
+- https://itexamanswers.net/question/what-is-a-characteristic-of-a-probabilistic-analysis-in-an-alert-evaluation
+- https://itexamanswers.net/question/a-network-administrator-is-reviewing-server-alerts-because-of-reports-of-network-slowness-the-administrator-confirms-that-an-alert-was-an-actual-security-incident-what-is-the-security-alert-classifi
+- https://itexamanswers.net/question/which-three-security-services-are-provided-by-digital-signatures-choose-three
+- https://itexamanswers.net/question/what-is-an-attack-vector-as-it-relates-to-network-security
+- https://itexamanswers.net/question/which-type-of-firewall-makes-use-of-a-proxy-server-to-connect-to-remote-servers-on-behalf-of-clients
+- https://itexamanswers.net/question/what-are-two-differences-between-stateful-and-stateless-firewalls-choose-two
+- https://itexamanswers.net/question/designing-a-zpf-requires-several-steps-which-step-involves-dictating-the-number-of-devices-between-most-secure-and-least-secure-zones-and-determining-redundant-devices
+- 
