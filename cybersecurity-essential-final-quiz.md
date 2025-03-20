@@ -30,4 +30,26 @@
 - https://itexamanswers.net/question/which-type-of-firewall-makes-use-of-a-proxy-server-to-connect-to-remote-servers-on-behalf-of-clients
 - https://itexamanswers.net/question/what-are-two-differences-between-stateful-and-stateless-firewalls-choose-two
 - https://itexamanswers.net/question/designing-a-zpf-requires-several-steps-which-step-involves-dictating-the-number-of-devices-between-most-secure-and-least-secure-zones-and-determining-redundant-devices
-- 
+- https://itexamanswers.net/question/what-is-the-function-of-the-pass-action-on-a-cisco-ios-zone-based-policy-firewall
+- https://itexamanswers.net/question/which-windows-log-contains-information-about-installations-of-software-including-windows-updates
+- https://itexamanswers.net/question/refer-to-the-exhibit-which-technology-generated-the-event-log
+- https://itexamanswers.net/question/when-a-server-profile-for-an-organization-is-being-established-which-element-describes-the-tcp-and-udp-daemons-and-ports-that-are-allowed-to-be-open-on-the-server
+- https://itexamanswers.net/question/what-is-an-example-of-a-local-exploit
+- https://itexamanswers.net/question/what-is-an-example-of-privilege-escalation-attack
+- https://itexamanswers.net/question/how-can-imap-be-a-security-threat-to-a-company
+- https://itexamanswers.net/question/which-statement-describes-the-anomaly-based-intrusion-detection-approach
+- https://itexamanswers.net/question/what-is-the-purpose-of-mobile-device-management-mdm-software
+- https://itexamanswers.net/question/what-is-the-outcome-when-a-linux-administrator-enters-the-man-man-command
+- https://itexamanswers.net/question/what-is-the-reason-for-disabling-ssid-broadcasting-and-changing-the-default-ssid-on-a-wireless-access-point#google_vignette
+- https://itexamanswers.net/question/which-two-options-can-limit-the-information-discovered-from-port-scanning-choose-two
+- https://itexamanswers.net/question/which-icmp-message-type-should-be-stopped-inbound
+- https://itexamanswers.net/question/in-which-configuration-would-an-outbound-acl-placement-be-preferred-over-an-inbound-acl-placement
+- https://itexamanswers.net/question/what-are-two-shared-characteristics-of-the-ids-and-the-ips-choose-two
+- https://itexamanswers.net/question/which-network-security-tool-can-detect-open-tcp-and-udp-ports-on-most-versions-of-microsoft-windows
+- https://itexamanswers.net/question/what-are-two-uses-of-an-access-control-list-choose-two
+- https://itexamanswers.net/question/what-three-tasks-are-accomplished-by-a-comprehensive-security-policy-choose-three
+- https://itexamanswers.net/question/what-does-a-rootkit-modify
+- https://itexamanswers.net/question/a-security-specialist-is-asked-for-advice-on-a-security-measure-to-prevent-unauthorized-hosts-from-accessing-the-home-network-of-employees-which-measure-would-be-most-effective#google_vignette
+- https://itexamanswers.net/question/an-organization-has-implemented-antivirus-software-what-type-of-security-control-did-the-company-implement
+- https://itexamanswers.net/question/which-protocol-would-be-used-to-provide-security-for-employees-that-access-systems-remotely-from-home
+- https://itexamanswers.net/question/which-user-can-override-file-permissions-on-a-linux-computer
