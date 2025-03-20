@@ -1,7 +1,7 @@
 # ฝากไฟล์เฉย ๆ จ้ะ (ข้างล่างมีแต่แนว final จ้ะ)
 ## cybersecurity fundamental 
 - [all checkpoint exam answer](cybersecurity-essential-checkpoint-exam.md)  
-- **รวม quiz cisco แปลไทย จากนายพีท**: https://docs.google.com/forms/d/1LuwyUtHr7IyZpTQegr-dh13ggBvu4uY480y2ZNnRz9Y/viewform?fbclid=IwY2xjawJA2ZtleHRuA2FlbQIxMQABHXP4WCczurLwK3KrQMJKHiYejq5RagqOn1SFQSYjZR_oYdY6UJ5Bpba2hQ_aem_ya39-wV_v6chZq2ABnViTw&edit_requested=true
+- **รวม quiz cisco แปลไทย จากนายพีท**: https://docs.google.com/forms/d/1LuwyUtHr7IyZpTQegr-dh13ggBvu4uY480y2ZNnRz9Y/viewform?fbclid=IwY2xjawJA2ZtleHRuA2FlbQIxMQABHXP4WCczurLwK3KrQMJKHiYejq5RagqOn1SFQSYjZR_oYdY6UJ5Bpba2hQ_aem_ya39-wV_v6chZq2ABnViTw&edit_requested=true  
 **answer version:** https://docs.google.com/forms/d/e/1FAIpQLScKI7O1KWQhCg_KAhRrKyejxoUcx-9YbtRSZjRyyp-1SFvAPQ/viewscore?viewscore=AE0zAgARmkZqGHLepKV97IcKidj_s7oXvpAVToXdtMfvwVw41PWN-hjTsgK3lgbzxnzKO9I
 - **final exam cisco:** https://docs.google.com/forms/d/e/1FAIpQLScEpC7bTX4wUnEFtahdQxmYH_Cq2uWDrbPKeZljV35sqo1zVA/viewform
 **answer version:** https://docs.google.com/forms/d/e/1FAIpQLScEpC7bTX4wUnEFtahdQxmYH_Cq2uWDrbPKeZljV35sqo1zVA/viewscore?viewscore=AE0zAgA04tNP3mr6KZC6lZEZpSze3YNa3hA21mOGA6HATLuQO2bjWSGmxAYzoyPu4J1rfUY
