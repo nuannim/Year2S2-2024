@@ -13,3 +13,7 @@
 - https://itexamanswers.net/question/which-file-system-is-for-mac-os-x-computers-and-windows-users-may-use-third-party-software-to-open-and-save-files-from-this-file-system
 - https://studyx.ai/questions/4ljs7v9/question-53-what-is-the-need-for-data-integrity-in-forums-and-personal-pages-on-social
 - https://www.assignmenthelp.net/qa/answer/a-network-security-engineer-is-examining-the-zone-based-policy/65e6acdd264e8846a119e93d
+- https://itexamanswers.net/question/which-two-advantages-in-security-controls-are-provided-by-software-defined-networks-sdn-over-traditional-network-security-solutions-choose-two
+- https://itexamanswers.net/question/which-two-advantages-in-security-controls-are-provided-by-software-defined-networks-sdn-over-traditional-network-security-solutions-choose-two
+- https://itexamanswers.net/question/what-are-two-recommended-steps-to-protect-and-secure-a-wireless-network-choose-two#google_vignette
+- https://itexamanswers.net/question/after-host-a-receives-a-web-page-from-server-b-host-a-terminates-the-connection-with-server-b-match-each-step-to-its-correct-option-in-the-normal-termination-process-for-a-tcp-connection-not-all-o
