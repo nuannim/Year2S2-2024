@@ -1,0 +1,59 @@
+import net.ruippeixotog.scalascraper.browser.JsoupBrowser // to import JsoupBrowser
+//to select nodes on a page
+//เพื่อดึงค่าจากเว็บไซต์ที่ต้องการ
+import net.ruippeixotog.scalascraper.dsl.DSL._
+import net.ruippeixotog.scalascraper.dsl.DSL.Extract._
+import net.ruippeixotog.scalascraper.dsl.DSL.Parse._
+// csv
+import com.github.tototoshi.csv._
+import java.io.File 
+
+case class Eruri(link: String, caption: String)
+
+object ScalaScraper {
+  def main(args: Array[String]): Unit = {
+    // initialize the Jsoup-backed browser and use it to connect to the target site
+    // เพื่อเชื่อมกับ site ที่ต้องการ
+    val browser = JsoupBrowser()
+    // download the target page
+    // โหลด page ที่ต้องการ
+    val doc = browser.get("https://cgm48official.com/")
+
+    // ใช้ elementList() เพื่อดึง div ที่เป็น class col-xl-2dot4
+    val htmlProductElements = doc >> elementList("div.col-xl-2dot4")
+    // ลูปดึงค่าที่ต้องการ และเปลี่ยนเป็น object ของ Eruri
+    val eruri: List[Eruri] = htmlProductElements.map(htmlProductElement => {
+      // extract the desired data from it
+      // ดึง tag ที่ต้องการ
+
+      val link = htmlProductElement >> element("a") >> attr("href")
+      val caption = htmlProductElement >> text("span")
+      
+      // return a new Eruri instance
+      // คืนค่า instance ของ Eruri
+      Eruri(link, caption)
+    })
+    // print the scrape data
+    // ลูปแสดงค่าที่ดึงมา
+    for (i <- eruri) {
+      println("Link: " + i.link)
+      println("Caption: " + i.caption)
+      println()
+    }
+
+    // create the output file
+    // สร้าง output file
+    val outpuFile = new File("EruRi.csv")
+
+    // initialize the CSV writer
+    // เขียนเป็นไฟล์ CSV
+    val writer = CSVWriter.open(outpuFile)
+    // transform the products in the format required by the
+    // writer and populate the CSV output file
+    writer.writeAll(eruri.map(i => List(i.link, i.caption)))
+
+    // release the writer resources
+    writer.close()
+
+  }
+}
