@@ -1,0 +1,17 @@
+{"sex":"m", "name": "Severus Snape", "school": "Hogwarts","house": "Slytherin","pets": [], "money": 35000, "position": "teacher"}
+{"sex":"f", "name": "Minerva McGonagall", "school": "Hogwarts","house": "Gryffindor","pets": [], "money": 50000, "position": "teacher"}
+{"sex":"f", "name": "Sybill Trelawney", "school": "Hogwarts","house": "Ravenclaw","pets": [], "money": 15000, "position": "teacher"}
+{"sex":"m", "name": "Quirinus Quirrell", "school": "Hogwarts","house": "Ravenclaw","pets": [], "money": 5000, "position": "teacher"}
+{"sex":"m", "name": "Albus Dumbledore", "school": "Hogwarts","house": "Gryffindor","pets": ["Phoenix"], "money": 95000, "position": "teacher"}
+{"sex":"m", "name": "Remus Lupin", "school": "Hogwarts","house": "Gryffindor","pets": [], "money": 52000, "position": "teacher"}
+{"sex":"m", "name": "Igor Karkaroff", "school": "Durmstrang","house": "","pets": [], "money": 35000, "position": "teacher"}
+{"sex":"f", "name": "Pomona Sprout", "school": "Hogwarts","house": "Hufflepuff","pets": [], "money": 25000, "position": "teacher"}
+{"sex":"f", "name": "Madame Maxime", "school": "Beauxbatons","house": "","pets": [], "money": 45000, "position": "teacher"}
+{"sex":"m", "name": "Harry Potter", "school": "Hogwarts", "house": "Gryffindor", "pets": ["cat", "bird"], "money": 9000, "position": "student"}
+{"sex":"f", "name": "Cho Chang", "school": "Hogwarts", "house": "Ravenclaw", "pets": ["cat","bird","toad"], "money": 7500, "position": "student"}
+{"sex":"f", "name": "Hermione Granger", "school": "Hogwarts", "house": "Gryffindor", "pets": ["cat"], "money": 9000, "position": "student"}
+{"sex":"m", "name": "Neville Longbottom", "school": "Hogwarts", "house": "Gryffindor", "pets": ["toad"], "money": 9000, "position": "student"}
+{"sex":"m", "name": "Newt Scamander", "school": "Hogwarts", "house": "Hufflepuff", "pets": [], "money": 7900, "position": "student"}
+{"sex":"m", "name": "Cedric Diggory", "school": "Hogwarts", "house": "Hufflepuff", "pets": [], "money": 8900, "position": "student"}
+{"sex":"m", "name": "Viktor Krum", "school": "Durmstrang", "house": "", "pets": [], "money": 8600, "position": "student"}
+{"sex":"f", "name": "Fleur Delacour", "school": "Beauxbatons", "house": "", "pets": [], "money": 9000, "position": "student"}

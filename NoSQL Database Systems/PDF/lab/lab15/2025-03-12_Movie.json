@@ -1,0 +1,50 @@
+{"id":1,"branch":"Nan","open_time":"10:24 AM","close_time":"9:39 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Siam Discovery"}
+{"id":2,"branch":"Rayong","open_time":"9:59 AM","close_time":"9:22 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":3,"branch":"Chiang Mai","open_time":"9:07 AM","close_time":"9:19 PM","movie":[{"movie" : "Dew", "price" : 220},{"movie" : "Joker", "price" : 220},{"movie" : "Maleficent", "price" : 250}],"own":"Siam Discovery"}
+{"id":4,"branch":"Nan","open_time":"10:52 AM","close_time":"10:20 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Paragon"}
+{"id":5,"branch":"Chiang Mai","open_time":"10:53 AM","close_time":"11:03 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Big C"}
+{"id":6,"branch":"Rayong","open_time":"10:38 AM","close_time":"8:59 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":7,"branch":"Nakhon Pathom","open_time":"10:28 AM","close_time":"9:00 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Lotus"}
+{"id":8,"branch":"Phayao","open_time":"9:00 AM","close_time":"10:54 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Paragon"}
+{"id":9,"branch":"Nakhon Pathom","open_time":"9:30 AM","close_time":"7:10 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Lotus"}
+{"id":10,"branch":"Nan","open_time":"9:39 AM","close_time":"8:13 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Paragon"}
+{"id":11,"branch":"Chiang Mai","open_time":"9:53 AM","close_time":"8:23 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":12,"branch":"Chiang Mai","open_time":"10:49 AM","close_time":"9:14 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Lotus"}
+{"id":13,"branch":"Nakhon Pathom","open_time":"10:45 AM","close_time":"8:56 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Terminator 2", "price" : 180},{"movie" : "Terminator 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":14,"branch":"Chiang Mai","open_time":"9:43 AM","close_time":"10:31 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Siam Discovery"}
+{"id":15,"branch":"Rayong","open_time":"10:25 AM","close_time":"8:07 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Paragon"}
+{"id":16,"branch":"Ayutthaya","open_time":"10:48 AM","close_time":"7:34 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Big C"}
+{"id":17,"branch":"Chiang Mai","open_time":"9:07 AM","close_time":"10:21 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Big C"}
+{"id":18,"branch":"Nakhon Pathom","open_time":"9:30 AM","close_time":"9:45 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Central"}
+{"id":19,"branch":"Phayao","open_time":"10:47 AM","close_time":"10:14 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Robinson"}
+{"id":20,"branch":"Nan","open_time":"10:16 AM","close_time":"10:41 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Terminator 2", "price" : 180},{"movie" : "Terminator 1", "price" : 150}],"own":"Lotus"}
+{"id":21,"branch":"Rayong","open_time":"9:07 AM","close_time":"11:46 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Central"}
+{"id":22,"branch":"Ayutthaya","open_time":"10:44 AM","close_time":"10:11 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":23,"branch":"Nakhon Pathom","open_time":"9:48 AM","close_time":"11:23 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Lotus"}
+{"id":24,"branch":"Nakhon Pathom","open_time":"10:13 AM","close_time":"9:50 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Terminator 2", "price" : 180},{"movie" : "Terminator 1", "price" : 150}],"own":"Big C"}
+{"id":25,"branch":"Ayutthaya","open_time":"9:30 AM","close_time":"7:05 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":26,"branch":"Nakhon Pathom","open_time":"9:20 AM","close_time":"7:24 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Paragon"}
+{"id":27,"branch":"Chiang Mai","open_time":"10:12 AM","close_time":"10:31 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Lotus"}
+{"id":28,"branch":"Nakhon Pathom","open_time":"9:45 AM","close_time":"9:13 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Big C"}
+{"id":29,"branch":"Phayao","open_time":"9:29 AM","close_time":"10:46 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Big C"}
+{"id":30,"branch":"Rayong","open_time":"10:45 AM","close_time":"7:26 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Big C"}
+{"id":31,"branch":"Nan","open_time":"9:55 AM","close_time":"7:35 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Paragon"}
+{"id":32,"branch":"Rayong","open_time":"9:49 AM","close_time":"7:48 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Paragon"}
+{"id":33,"branch":"Ayutthaya","open_time":"10:39 AM","close_time":"9:24 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Central"}
+{"id":34,"branch":"Chiang Mai","open_time":"10:17 AM","close_time":"10:23 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Frozen 2", "price" : 220},{"movie" : "Dew", "price" : 220}],"own":"Central"}
+{"id":35,"branch":"Chiang Mai","open_time":"10:00 AM","close_time":"10:45 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Terminator 2", "price" : 180},{"movie" : "Terminator 1", "price" : 150}],"own":"Lotus"}
+{"id":36,"branch":"Rayong","open_time":"10:41 AM","close_time":"7:22 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Paragon"}
+{"id":37,"branch":"Ayutthaya","open_time":"10:47 AM","close_time":"9:07 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Central"}
+{"id":38,"branch":"Ayutthaya","open_time":"10:46 AM","close_time":"7:52 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Robinson"}
+{"id":39,"branch":"Chiang Mai","open_time":"10:15 AM","close_time":"11:43 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Siam Discovery"}
+{"id":40,"branch":"Ayutthaya","open_time":"9:53 AM","close_time":"8:04 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Siam Discovery"}
+{"id":41,"branch":"Nakhon Pathom","open_time":"10:16 AM","close_time":"10:42 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Robinson"}
+{"id":42,"branch":"Nakhon Pathom","open_time":"9:04 AM","close_time":"7:45 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Siam Discovery"}
+{"id":43,"branch":"Nakhon Pathom","open_time":"10:23 AM","close_time":"8:05 PM","movie":[{"movie" : "Dew", "price" : 220},{"movie" : "Joker", "price" : 220},{"movie" : "Maleficent", "price" : 250}],"own":"Lotus"}
+{"id":44,"branch":"Phayao","open_time":"9:21 AM","close_time":"7:12 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Big C"}
+{"id":45,"branch":"Ayutthaya","open_time":"10:12 AM","close_time":"9:56 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Terminator 1", "price" : 150}],"own":"Big C"}
+{"id":46,"branch":"Ayutthaya","open_time":"9:27 AM","close_time":"10:52 PM","movie":[{"movie" : "Terminator 3", "price" : 250},{"movie" : "Terminator 2", "price" : 180},{"movie" : "Terminator 1", "price" : 150}],"own":"Big C"}
+{"id":47,"branch":"Bangkok","open_time":"10:41 AM","close_time":"10:02 PM","movie":[{"movie" : "Doremon", "price" :110},{"movie" : "Frozen 2", "price" : 220}],"own":"Lotus"}
+{"id":48,"branch":"Phayao","open_time":"10:20 AM","close_time":"10:50 PM","movie":[{"movie" : "Dew", "price" : 220},{"movie" : "Joker", "price" : 220},{"movie" : "Maleficent", "price" : 250}],"own":"Robinson"}
+{"id":49,"branch":"Chiang Mai","open_time":"10:03 AM","close_time":"8:41 PM","movie":[{"movie" : "Maleficent", "price" : 250},{"movie" : "Joker", "price" : 220}],"own":"Siam Discovery"}
+{"id":50,"branch":"Rayong","open_time":"9:17 AM","close_time":"11:28 PM","movie":[{"movie" : "Frozen 2", "price" :180},{"movie" : "Frozen 1", "price" : 150}],"own":"Robinson"}
